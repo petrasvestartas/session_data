@@ -1,0 +1,21 @@
+DBG coplanar pair(0,1) i=3 j=4 antipar=-1.0000 sq0=247181.8167 sq1=247181.8167 cop=0
+DBG coplanar pair(0,1) i=4 j=5 antipar=-1.0000 sq0=0.0000 sq1=0.0000 cop=1
+DBG cplanar++ pair(0,1) i=4 j=5 dbg_coplanar=1
+DBG bool pair(0,1) i=4 j=5 n0=(0.0,-1.0,0.1) n1=(0.0,1.0,-0.1)
+DBG type11 pair(3,2) face(4,4) i=4 j=4
+DBG type11 pair(5,4) face(4,4) i=4 j=4
+DBG type11 pair(7,6) face(4,4) i=4 j=4
+DBG type11 pair(9,8) face(4,4) i=4 j=4
+DBG type11 pair(11,10) face(4,4) i=4 j=4
+DBG type11 pair(13,12) face(4,4) i=4 j=4
+DBG type11 pair(15,14) face(4,4) i=4 j=4
+DBG type11 pair(17,16) face(4,4) i=4 j=4
+DBG coplanar pair(20,21) i=3 j=3 antipar=-1.0000 sq0=247180.8443 sq1=247180.8443 cop=0
+DBG coplanar pair(20,21) i=4 j=4 antipar=-1.0000 sq0=0.0000 sq1=0.0000 cop=1
+DBG cplanar++ pair(20,21) i=4 j=4 dbg_coplanar=1
+DBG bool pair(20,21) i=4 j=4 n0=(0.0,-1.0,0.3) n1=(0.0,1.0,-0.3)
+DBG type11 pair(23,22) face(4,4) i=4 j=4
+DBG type11 pair(25,24) face(4,4) i=4 j=4
+DBG type11 pair(27,26) face(4,4) i=4 j=4
+DBG type11 pair(29,28) face(4,4) i=4 j=4
+DBG type11 pair(34,33) face(4,4) i=4 j=4

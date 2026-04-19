@@ -1,7 +1,7 @@
 """
 Compare main_5 vidy_one_axis_two_layers output against wood's reference (out.xml).
 Usage: cd session_data && python compare_vidy_one_axis_two_layers.py
-Wood reference: C:/brg/code_cpp/wood/cmake/src/wood/dataset/out.xml (18 polyline_groups)
+Wood reference: ref_vidy_one_axis_two_layers.xml (18 polyline_groups)
 Our output:     WoodF2F_vidy_one_axis_two_layers.pb_coords.txt
 """
 import xml.etree.ElementTree as ET
