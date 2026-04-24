@@ -1612,11 +1612,11 @@
         "order_v": 2,
         "cv_count_u": 2,
         "cv_count_v": 2,
-        "knots_u": [
+        "nurbsknots_u": [
             0.0,
             1.0
         ],
-        "knots_v": [
+        "nurbsknots_v": [
             0.0,
             1.0
         ],
@@ -1847,7 +1847,7 @@
             "dimension": 3,
             "guid": "fd6b9097-e840-42c1-8f9b-309bafc952d3",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 0.0,
                 0.06428243465332258,
                 0.12856486930664515,
@@ -1960,7 +1960,7 @@
                 "dimension": 3,
                 "guid": "90e117f8-d832-4fc4-8d17-ad77c00ca5b8",
                 "is_rational": false,
-                "knots": [
+                "nurbsknots": [
                     0.0,
                     0.21427478217774165,
                     0.4285495643554833,
@@ -2039,7 +2039,7 @@
             "dimension": 3,
             "guid": "f2cd230c-ef19-4d76-a073-6aa10cae71c7",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 0.0,
                 5.999999999999999,
                 11.999999999999998,
@@ -2115,7 +2115,7 @@
             "dimension": 3,
             "guid": "79c03233-4add-4159-8567-6c4026605b76",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 0.0,
                 2.0,
                 4.0,
@@ -2372,7 +2372,7 @@
         "dimension": 3,
         "guid": "074d8644-e7f5-4318-a64c-80ea07092be7",
         "is_rational": false,
-        "knots": [
+        "nurbsknots": [
             0.0,
             0.5999999999999982,
             1.1999999999999964,
@@ -2485,7 +2485,7 @@
             "dimension": 3,
             "guid": "772fd0f8-0a22-4083-9235-7493e506f5a2",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 0.0,
                 1.9999999999999996,
                 3.999999999999999,

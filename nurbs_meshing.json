@@ -56,13 +56,13 @@
                 "order_v": 4,
                 "cv_count_u": 3,
                 "cv_count_v": 4,
-                "knots_u": [
+                "nurbsknots_u": [
                     0.0,
                     0.0,
                     9.838943926882802,
                     9.838943926882802
                 ],
-                "knots_v": [
+                "nurbsknots_v": [
                     0.0,
                     0.0,
                     0.0,

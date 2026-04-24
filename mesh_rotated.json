@@ -1788,11 +1788,11 @@
         "order_v": 2,
         "cv_count_u": 2,
         "cv_count_v": 2,
-        "knots_u": [
+        "nurbsknots_u": [
             0.0,
             1.0
         ],
-        "knots_v": [
+        "nurbsknots_v": [
             0.0,
             1.0
         ],
@@ -2073,7 +2073,7 @@
             "dimension": 3,
             "guid": "7227bb31-9808-44e9-98b6-ec917fd3dcbb",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 0.0,
                 0.048382256972911916,
                 0.09676451394582383,
@@ -2212,7 +2212,7 @@
             "dimension": 3,
             "guid": "4d60b878-5e4a-4c5e-bca3-eedd05329572",
             "is_rational": false,
-            "knots": [
+            "nurbsknots": [
                 -5.5206063564167165,
                 -2.7603031782083582,
                 0.0,
@@ -2524,7 +2524,7 @@
         "dimension": 3,
         "guid": "ff97ad83-de94-409d-871b-fe0e44d689c0",
         "is_rational": false,
-        "knots": [
+        "nurbsknots": [
             0.0,
             0.2758330572529568,
             0.5516661145059136,

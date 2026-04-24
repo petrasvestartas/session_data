@@ -56,7 +56,7 @@
                 "order_v": 4,
                 "cv_count_u": 4,
                 "cv_count_v": 4,
-                "knots_u": [
+                "nurbsknots_u": [
                     0.0,
                     0.0,
                     0.0,
@@ -64,7 +64,7 @@
                     1.0,
                     1.0
                 ],
-                "knots_v": [
+                "nurbsknots_v": [
                     0.0,
                     0.0,
                     0.0,
