@@ -4,18 +4,10 @@ import sys
 sys.path.insert(0, r"C:\brg\compas_tf\src")
 sys.path.insert(0, r"C:\pc\3_code\code_rust\session\session_py\src")
 
-import math
-
-from compas.geometry import Point as CPoint
-from compas.geometry import Rotation
-from compas.geometry import Translation
-from compas.geometry import Vector
+import compas
 from compas_model.elements.group import Group
 
 import compas_tf  # noqa: F401
-from compas_tf.floor_builder import FloorBuilder
-from compas_tf.floor_guide import FloorGuide
-from compas_tf.floor_model import FloorModel
 from compas_tf.plate import PlateElement
 
 try:
@@ -23,9 +15,9 @@ try:
     from compas_tf.solid_union_modifier import SolidUnionModifier
     from compas_tf.joint_dowel import DowelElement
     from compas_tf.wedge import WedgeElement
-    from compas_tf.joint_sherpaxl120 import SherpaXL120Element
     from compas_tf.joint_hilti import HiltiElement
     from compas_tf.joint_screw import ScrewElement
+    from compas_tf.joint_sherpaxl120 import SherpaXL120Element
     from compas_tf.joint_strip import AlignmentStripElement
     CONNECTOR_TYPES = (ScrewElement, DowelElement, AlignmentStripElement, SherpaXL120Element, HiltiElement)
     _HAS_MODIFIERS = True
@@ -47,53 +39,19 @@ OUTPUT = pathlib.Path(__file__).parent / "floor_model.pb"
 DATA_JSON = pathlib.Path(r"C:\brg\compas_tf\data\floor_model_booleans.json")
 
 # ------------------------------------------------------------------ #
-#  Load or build FloorModel
+#  Load FloorModel from pre-built JSON
 # ------------------------------------------------------------------ #
 
-column_size = 220
-builder = FloorBuilder(
-    size=3000,
-    height=650,
-    rise=453,
-    oculus=1000,
-    beam_w=40,
-    column_head_offset=50,
-    inner_thick=60,
-    outer_thick=100,
-    column_head_scale=250,
-    column_head_inclination=0,
-    head_h=500,
-    head_b=100,
-    head_o=141,
-)
-guide = FloorGuide(
-    size_grid_x=3000,
-    size_grid_y=3000,
-    size_column_head=220,
-    size_column_head_chamfer=120,
-    size_outer_ribs=100,
-    size_inner_ribs=60,
-    size_inner_beams=60,
-    height=650,
-    rise=453,
-    size_oculus=1000,
-    size_wedge=120,
-)
-floor_model = FloorModel(builder=builder)
-floor_model.add_support(column_size=column_size)
-floor_model.add_column(column_size=column_size)
-floor_level = Translation.from_vector(Vector(0, 0, floor_model.story_height))
-floor_model.add_floor_guide(guide, column_index=0, transformation=floor_level, include_oculus=True)
-for i in range(1, 4):
-    rot = Rotation.from_axis_and_angle(Vector(0, 0, 1), i * math.pi / 2, CPoint(0, 0, 0))
-    floor_model.add_floor_guide(guide, column_index=i, transformation=floor_level * rot, include_oculus=False)
-floor_model.precompute_boolean_modifiers()
-floor_model.compute_contacts_inner_beams(tolerance=1.0, minimum_area=1.0)
-contacts = list(floor_model.contacts())
+floor_model = compas.json_load(DATA_JSON)
+
+try:
+    contacts = list(floor_model.contacts())
+except Exception:
+    contacts = []
 print(f"[contacts] {len(contacts)} contact(s) found")
 
 # ------------------------------------------------------------------ #
-#  Colors — matching model.py exactly
+#  Colors
 # ------------------------------------------------------------------ #
 
 DEFAULT_COLOR = Color(0.80, 0.80, 0.80, 1.0)
@@ -104,72 +62,57 @@ def is_connector(element):
 
 
 # ------------------------------------------------------------------ #
-#  Build guid -> tree element map — tree objects have correct transforms
+#  Build hidden_sources using object identity (matches model.py)
 # ------------------------------------------------------------------ #
 
-guid_to_element = {}
-
-def _collect_tree_elements(element):
-    if isinstance(element, Group):
-        for child in element.children:
-            _collect_tree_elements(child)
-    else:
-        g = getattr(element, "guid", None)
-        if g is not None:
-            guid_to_element[str(g)] = element
-
-for _node in floor_model.tree.root.children:
-    _collect_tree_elements(_node.element)
-
-# ------------------------------------------------------------------ #
-#  Build hidden_guids — same logic as model.py
-# ------------------------------------------------------------------ #
-
-hidden_guids = set()
+hidden_sources = set()
 if _HAS_MODIFIERS:
     for edge in floor_model.graph.edges():
         modifiers = floor_model.graph.edge_attribute(edge, name="modifiers")
         if not modifiers:
             continue
         for modifier in modifiers:
+            u, _v = edge
+            src = floor_model.graph.node_element(u)
             if isinstance(modifier, (SolidDifferenceModifier, SolidUnionModifier)):
-                u, _v = edge
-                src = floor_model.graph.node_element(u)
-                if not isinstance(src, (DowelElement, WedgeElement)):
-                    hidden_guids.add(str(src.guid))
+                hidden_sources.add(src)
+
+
+def _is_hidden(element):
+    if not _HAS_MODIFIERS:
+        return False
+    if element not in hidden_sources:
+        return False
+    return not isinstance(element, (DowelElement, WedgeElement))
+
 
 # ------------------------------------------------------------------ #
-#  Build element_connectors — use tree objects for correct positions
+#  Build element_connectors using object identity
 # ------------------------------------------------------------------ #
 
-element_connectors = {}  # element_guid -> [connector, ...]
+element_connectors = {}
 for edge in floor_model.graph.edges():
     u, v = edge
-    ga = floor_model.graph.node_element(u)
-    gb = floor_model.graph.node_element(v)
-    # Resolve to tree objects (which have correct transformations)
-    a = guid_to_element.get(str(ga.guid), ga)
-    b = guid_to_element.get(str(gb.guid), gb)
+    a = floor_model.graph.node_element(u)
+    b = floor_model.graph.node_element(v)
     if is_connector(a) and not is_connector(b):
         connector, element = a, b
     elif is_connector(b) and not is_connector(a):
         connector, element = b, a
     else:
         continue
-    eg = str(element.guid)
-    element_connectors.setdefault(eg, [])
-    if str(connector.guid) not in [str(c.guid) for c in element_connectors[eg]]:
-        element_connectors[eg].append(connector)
+    element_connectors.setdefault(element, [])
+    if connector not in element_connectors[element]:
+        element_connectors[element].append(connector)
 
 # ------------------------------------------------------------------ #
-#  Session builder — mirrors add_model_to_viewer from model.py
+#  Session builder
 # ------------------------------------------------------------------ #
-
-PROMOTE = set()
 
 session = Session(name="floor_model")
 mesh_count = 0
 poly_count = 0
+element_to_session_guid = {}  # str(compas element guid) -> session mesh guid
 
 
 def add_element_to_session(element, parent_node):
@@ -185,6 +128,7 @@ def add_element_to_session(element, parent_node):
     m = Mesh.from_vertices_and_faces(pts, faces)
     m.name = name
     m.set_objectcolor(DEFAULT_COLOR)
+    element_to_session_guid[str(element.guid)] = m.guid
     session.add_mesh(m, parent=plate)
     mesh_count += 1
     if isinstance(element, PlateElement):
@@ -213,18 +157,15 @@ def traverse_element(element, parent_node):
         if isinstance(child, Group):
             cname = child.name or "group"
             grp = TreeNode(name=cname)
-            if cname in PROMOTE:
-                session.add(grp)
-            else:
-                session.add(grp, parent_node)
+            session.add(grp, parent_node)
             traverse_element(child, grp)
         else:
-            if str(child.guid) in hidden_guids:
+            if _is_hidden(child):
                 continue
             child_node = add_element_to_session(child, parent_node)
             if child_node is None:
                 continue
-            connectors = element_connectors.get(str(child.guid), [])
+            connectors = element_connectors.get(child, [])
             if connectors:
                 conn_node = TreeNode(name="connectors")
                 session.add(conn_node, child_node)
@@ -238,7 +179,7 @@ def traverse_element(element, parent_node):
 
 
 # ------------------------------------------------------------------ #
-#  Build session tree — same traversal order as add_model_to_viewer
+#  Build session tree
 # ------------------------------------------------------------------ #
 
 model_node = TreeNode(name="model")
@@ -249,17 +190,14 @@ for node in floor_model.tree.root.children:
     if isinstance(element, Group):
         gname = element.name or "group"
         grp = TreeNode(name=gname)
-        if gname in PROMOTE:
-            session.add(grp)
-        else:
-            session.add(grp, model_node)
+        session.add(grp, model_node)
         traverse_element(element, grp)
     else:
-        if str(element.guid) in hidden_guids:
+        if _is_hidden(element):
             continue
         elem_node = add_element_to_session(element, model_node)
         if elem_node is not None:
-            connectors = element_connectors.get(str(element.guid), [])
+            connectors = element_connectors.get(element, [])
             if connectors:
                 conn_node = TreeNode(name="connectors")
                 session.add(conn_node, elem_node)
@@ -267,7 +205,7 @@ for node in floor_model.tree.root.children:
                     add_element_to_session(connector, conn_node)
 
 # ------------------------------------------------------------------ #
-#  Add contacts as red filled meshes + outline polylines
+#  Add contacts as filled meshes
 # ------------------------------------------------------------------ #
 
 CONTACT_COLOR = DEFAULT_COLOR
@@ -276,7 +214,6 @@ session.add(contacts_node, model_node)
 for i, contact in enumerate(contacts):
     poly = contact.polygon
     pts = [Point(pt[0], pt[1], pt[2]) for pt in poly.points]
-    # Fan-triangulate the contact polygon into a mesh
     faces = [[0, j, j + 1] for j in range(1, len(pts) - 1)]
     cm = Mesh.from_vertices_and_faces(pts, faces)
     cm.name = f"contact_{i}"
@@ -285,8 +222,27 @@ for i, contact in enumerate(contacts):
     mesh_count += 1
 
 # ------------------------------------------------------------------ #
+#  Export graph edges
+# ------------------------------------------------------------------ #
+
+edge_count = 0
+for edge in floor_model.graph.edges():
+    u, v = edge
+    ga = floor_model.graph.node_element(u)
+    gb = floor_model.graph.node_element(v)
+    guid_a = element_to_session_guid.get(str(ga.guid))
+    guid_b = element_to_session_guid.get(str(gb.guid))
+    if not guid_a or not guid_b:
+        continue
+    if is_connector(ga) and is_connector(gb):
+        continue
+    attr = "fastener" if (is_connector(ga) or is_connector(gb)) else "contact"
+    session.add_edge(guid_a, guid_b, attr)
+    edge_count += 1
+
+# ------------------------------------------------------------------ #
 #  Save
 # ------------------------------------------------------------------ #
 
 session.pb_dump(str(OUTPUT))
-print(f"Saved {mesh_count} mesh(es), {poly_count} polyline(s), {len(contacts)} contact(s) -> {OUTPUT}")
+print(f"Saved {mesh_count} mesh(es), {poly_count} polyline(s), {len(contacts)} contact(s), {edge_count} graph edge(s) -> {OUTPUT}")
