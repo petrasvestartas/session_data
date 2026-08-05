@@ -1,0 +1,2 @@
+# GitHub hard limit is 100 MiB per file; this one is ~100.3 MiB and is rejected on push.
+doka_floorplans_p3.pb
