@@ -1,2 +1,12 @@
 # GitHub hard limit is 100 MiB per file; this one is ~100.3 MiB and is rejected on push.
 doka_floorplans_p3.pb
+
+# Over GitHub's 50 MiB warning threshold (combined_scene is ~680 MiB, treppenhaus_a ~178 MiB —
+# far past the 100 MiB hard limit). Regenerable exports; kept on disk only, never committed.
+combined_scene.pb
+draw_pj_treppenhaus_a.pb
+draw_pi_laengsschnitt.pb
+draw_pj_grundriss_og2.pb
+draw_pd_treppenhaus04.pb
+draw_pf_he.pb
+draw_pc_gru_og2.pb
