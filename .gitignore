@@ -10,3 +10,6 @@ draw_pj_grundriss_og2.pb
 draw_pd_treppenhaus04.pb
 draw_pf_he.pb
 draw_pc_gru_og2.pb
+
+# Python bytecode from scripts run against these fixtures.
+__pycache__/
