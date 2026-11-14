@@ -1,0 +1,74 @@
+file	STEP faces	ours	ours read s	ours breps	ours faces*	ours is_valid	ours is_solid	ours kinds p,s,c,k,t,f	ours volume	OCCT	OCCT read s	OCCT solids	OCCT faces*	OCCT valid	OCCT kinds p,s,c,k,t,f	OCCT volume	rel. vol diff	ours message	why not solid (ours raw)	ours repaired is_solid	ours repaired volume	repaired rel. vol diff
+github_misc/as1-ac-214.stp	53	ok	0.0125	5	18	1	0	6,0,12,0,0,0	530730.320583(mesh)	ok	0.037	18	18	1	6,0,12,0,0,0	530575.222039	2.92e-04		edges_same_direction_twice=8	1	530575.222039	0.00e+00
+github_misc/nema-17-bracket.step	42	ok	0.0141	1	42	0	0	24,0,18,0,0,0	7290.69589676(mesh)	ok	0.041	1	42	1	24,0,18,0,0,0	7061.15530179	3.25e-02		open_wires=24 edges_same_direction_twice=68	1	7061.15530179	0.00e+00
+hf_brepground/00015160_chamfer_12.step	53	ok	0.031	1	53	0	0	13,0,23,1,0,16	nan(mesh)	ok	0.0728	1	53	1	13,0,23,3,8,6	12357.254171	nan		invalid_surfaces=4 open_wires=16 edges_same_direction_twice=55	0	nan(mesh)	nan
+hf_brepground/00019536_chamfer_10.step	10	ok	0.00515	1	10	0	0	4,0,2,0,3,1	558093.460933(mesh)	ok	0.0129	1	10	1	4,0,2,0,3,1	991596.281952	4.37e-01		open_wires=4 edges_same_direction_twice=5	1	nan(mesh)	nan
+hf_brepground/00042148_fillet_11.step	120	ok	0.204	1	120	0	0	15,0,51,0,0,54	nan(mesh)	ok	0.111	1	120	1	15,0,51,0,32,22	14763.1293904	nan		open_wires=64 edges_same_direction_twice=109	1	nan(mesh)	nan
+hf_brepground/00071814_fillet_15.step	80	ok	0.0738	1	80	0	0	20,0,37,0,4,19	nan(mesh)	ok	0.0788	1	80	1	20,0,37,0,13,10	18626.4128714	nan		open_wires=53 edges_same_direction_twice=94	1	16291.4936849	1.25e-01
+hf_brepground/00089757_fillet_16.step	38	ok	0.0136	1	38	0	0	17,0,15,0,1,5	nan(mesh)	ok	0.0363	1	38	1	17,0,15,0,4,2	6617.54825101	nan		open_wires=16 edges_same_direction_twice=54	1	nan(mesh)	nan
+hf_brepground/00161395_chamfer_16.step	50	ok	0.0481	1	50	0	0	20,2,20,0,0,8	nan(mesh)	ok	0.0551	1	50	1	20,2,20,0,2,6	15147772.7491	nan		open_wires=20 edges_same_direction_twice=26	1	15146800.6548	6.42e-05
+hf_brepground/00170968_fillet_10.step	46	ok	0.0314	1	46	0	0	13,0,16,0,14,3	nan(mesh)	ok	0.0439	1	46	1	13,0,16,0,15,2	84325.3519881	nan		open_wires=22 edges_same_direction_twice=61	1	nan(mesh)	nan
+hf_brepground/00171214_fillet_11.step	19	ok	0.0622	1	19	0	0	5,0,9,0,0,5	638835.17156(mesh)	ok	0.0298	1	19	1	5,0,9,2,2,1	747962.535308	1.46e-01		open_wires=6 edges_same_direction_twice=12	1	769610.718293	2.89e-02
+hf_brepground/00275424_fillet_17.step	21	ok	0.0136	1	21	0	0	6,0,6,3,4,2	770602.430259(mesh)	ok	0.0215	1	21	1	6,0,6,3,4,2	640454.868384	2.03e-01		open_wires=3 edges_same_direction_twice=6	1	nan(mesh)	nan
+hf_brepground/00290572_chamfer_12.step	42	ok	0.0192	1	42	0	0	19,0,16,0,0,7	nan(mesh)	ok	0.0388	1	42	1	19,0,16,0,6,1	8593.10967125	nan		open_wires=16 edges_same_direction_twice=32	1	8646.47873725	6.21e-03
+hf_brepmfr/0m-3623639.stp	34	ok	0.00903	3	26	0	0	6,0,20,0,0,0	681.021201489(mesh)	ok	0.0253	3	26	1	6,0,20,0,0,0	14351.3890037	9.53e-01		open_wires=26 edges_same_direction_twice=28	1	15448.3748241	7.64e-02
+hf_brepmfr/107050503-m8u-8700-a267.stp	44	ok	0.0136	5	36	0	0	16,0,20,0,0,0	nan(mesh)	ok	0.0363	1	36	1	16,0,20,0,0,0	4.34439271948	nan		open_wires=42 edges_same_direction_twice=36	1	7.99077454937	8.39e-01
+hf_brepmfr/16P-03303.step	261	ok	0.496	2	59	1	0	21,3,20,0,0,15	15.3171392413(mesh)	ok	0.888	2	59	1	21,0,20,15,0,3	14.9981573341	2.13e-02		edges_same_direction_twice=27	1	19.4141920027(mesh)	2.94e-01
+hf_brepmfr/sample_round.stp	14	ok	0.0575	1	14	0	0	3,0,3,0,0,8	64176490.0936(mesh)	ok	0.175	1	14	1	3,0,3,0,4,4	126138195.332	4.91e-01		open_wires=11 edges_same_direction_twice=10	1	85380279.9359	3.23e-01
+hf_brepmfr/sample_round_1.stp	14	ok	0.0152	1	14	0	0	3,0,5,0,0,6	nan(mesh)	ok	0.0337	1	14	1	3,0,5,0,6,0	126039786.215	nan		open_wires=11 edges_same_direction_twice=2	1	45009035.567	6.43e-01
+hf_brepmfr/sample_round_2.stp	15	ok	0.376	1	15	0	0	3,0,4,0,0,8	38076708.3017(mesh)	ok	0.124	1	15	1	3,0,4,0,6,2	113705314.062	6.65e-01		open_wires=12 edges_same_direction_twice=6	1	4441118.74385	9.61e-01
+hf_brepmfr/zip_chainlinkouter00.stp	40	ok	0.00763	1	40	0	0	12,0,28,0,0,0	336.178234902(mesh)	ok	0.0286	1	40	1	12,0,28,0,0,0	1214.34409131	7.23e-01		open_wires=32 edges_same_direction_twice=36	1	1214.34409131	0.00e+00
+hf_brepmfr/zip_cylinder400bore000.stp	188	ok	0.0674	1	188	0	0	34,8,72,0,2,72	nan(mesh)	ok	0.202	1	188	1	34,8,72,2,60,12	254.914351935	nan		open_wires=178 edges_same_direction_twice=144	1	nan(mesh)	nan
+hf_brepmfr/zip_cylinder600bore000.stp	184	ok	0.0966	1	184	0	0	42,0,74,0,4,64	nan(mesh)	ok	0.169	1	184	1	42,0,74,4,44,20	261.518937695	nan		open_wires=172 edges_same_direction_twice=136	1	nan(mesh)	nan
+hf_brepmfr/zip_defaultamacchina000.stp	82	ok	0.0174	14	4	0	0	0,0,2,0,0,2	137513496.909(mesh)	ok	0.0519	14	4	1	0,0,2,0,0,2	100066706.901	3.74e-01		open_wires=2 edges_same_direction_twice=2	1	99994460.5875	7.22e-04
+hf_brepmfr/zip_dfautbrutdusinage0001.stp	490	ok	0.078	35	6	0	0	6,0,0,0,0,0	87500000(mesh)	ok	0.371	35	6	1	6,0,0,0,0,0	87500000	0.00e+00		open_wires=6 edges_same_direction_twice=4	1	nan(mesh)	nan
+hf_brepmfr/zip_doorlatchvonduprin0001.stp	58	ok	0.0331	1	58	0	0	14,4,26,0,0,14	nan(mesh)	ok	0.0622	1	58	1	14,4,26,2,4,8	376484.013554	nan		open_wires=57 edges_same_direction_twice=52	1	375838.302855	1.72e-03
+hf_brepmfr/zip_dripmanifold0.stp	66	ok	0.0191	1	66	0	0	16,0,28,0,0,22	nan(mesh)	ok	0.0406	1	66	1	16,0,28,18,4,0	5091.41960661	nan		open_wires=54 edges_same_direction_twice=42	1	4903.91258667	3.68e-02
+hf_brepmfr/zip_ea0000006992revit.stp	370	ok	0.155	22	2	1	1	0,2,0,0,0,0	8580.2376481	ok	0.388	21	68	1	8,0,26,24,8,2	799375.332053	9.89e-01			0	nan(mesh)	nan
+hf_brepmfr/zip_ea0000006997revit.stp	75	ok	0.125	1	75	0	0	30,0,37,1,0,7	nan(mesh)	ok	0.0684	1	75	1	30,0,37,4,4,0	10131989.6751	nan		open_wires=74 edges_same_direction_twice=53	1	1739025.28701	8.28e-01
+hf_brepmfr/zip_ea0000007008revit.stp	68	ok	0.161	1	68	0	0	24,2,36,0,0,6	nan(mesh)	ok	0.0971	1	68	1	24,0,36,0,8,0	543814.064071	nan		open_wires=58 edges_same_direction_twice=58	1	401441.991132	2.62e-01
+hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step	39	ok	0.035	1	39	0	0	9,8,17,0,0,5	nan(mesh)	ok	0.0328	1	39	1	9,8,17,1,4,0	8796.53612651	nan		open_wires=18 edges_same_direction_twice=26	1	8832.77894718	4.12e-03
+hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step	124	ok	0.0721	1	124	0	0	76,0,4,3,4,37	60939.9271996(mesh)	ok	0.114	1	124	1	76,0,4,10,10,24	74962.8207951	1.87e-01		open_wires=76 edges_same_direction_twice=122	1	nan(mesh)	nan
+hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step	99	ok	0.0793	1	99	0	0	23,16,52,0,0,8	nan(mesh)	ok	0.135	1	99	1	23,16,52,0,8,0	47778.1959053	nan		open_wires=51 edges_same_direction_twice=95	1	47691.7044444	1.81e-03
+hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step	38	ok	0.285	1	38	0	0	7,0,4,0,0,27	nan(mesh)	ok	0.0948	1	38	1	7,0,4,0,0,27	44804.7519849	nan		open_wires=19 edges_same_direction_twice=50	1	52201.6367992	1.65e-01
+hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step	14	ok	0.00509	1	14	0	0	6,0,8,0,0,0	19660.1050395(mesh)	ok	0.0152	1	14	1	6,0,8,0,0,0	52927.5411778	6.29e-01		open_wires=8 edges_same_direction_twice=22	1	52927.5411778	0.00e+00
+hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step	35	ok	0.0275	1	35	0	0	13,4,10,0,0,8	nan(mesh)	ok	0.0297	1	35	1	13,4,10,6,2,0	19372.5382065	nan		open_wires=15 edges_same_direction_twice=20	1	nan(mesh)	nan
+hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step	50	ok	0.00921	1	50	0	0	40,0,2,0,0,8	nan(mesh)	ok	0.0482	1	50	1	39,0,2,4,0,5	23756.9131195	nan		open_wires=31 edges_same_direction_twice=56	1	23645.1760208	4.70e-03
+hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step	58	ok	0.0214	1	58	0	0	24,10,18,0,0,6	nan(mesh)	ok	0.0465	1	58	1	24,10,18,2,0,4	10008.4985742	nan		open_wires=26 edges_same_direction_twice=56	1	9996.95296595	1.15e-03
+hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step	62	ok	0.0111	1	62	0	0	15,8,31,0,0,8	nan(mesh)	ok	0.074	1	62	1	15,8,31,0,8,0	19520.8977489	nan		open_wires=39 edges_same_direction_twice=61	1	19520.8977489	0.00e+00
+hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step	47	ok	0.0228	1	47	0	0	12,0,12,11,8,4	102926.304379(mesh)	ok	0.0426	1	47	1	12,0,12,15,8,0	26664.6969523	2.86e+00		open_wires=21 edges_same_direction_twice=19	1	nan(mesh)	nan
+mcneel_rebuilt/mesh_blob_80.step	80	ok	0.0265	1	80	1	1	80,0,0,0,0,0	28263.2867334	ok	0.0407	1	80	1	80,0,0,0,0,0	28263.2867334	0.00e+00			1	28263.2867334	0.00e+00
+mcneel_rebuilt/threaded_rod_cutter.step	5	ok	0.0159	1	5	0	0	2,0,1,0,0,2	5.92930252452e-13(mesh)	ok	0.0127	1	5	1	2,0,0,0,0,3	169.331839697	1.00e+00		open_wires=4 edges_same_direction_twice=3	1	169.331434383	2.39e-06
+nist_edm/260012.stp	147	ok	0.131	1	147	0	0	53,1,46,3,2,42	nan(mesh)	ok	0.197	1	147	1	53,0,54,11,29,0	29612667552.2	nan		invalid_surfaces=3 open_wires=20 edges_same_direction_twice=175	0	nan(mesh)	nan
+nist_edm/DoubleCam1.stp	34	ok	0.0085	1	34	1	0	12,0,10,0,0,12	nan(mesh)	ok	0.0253	1	35	1	12,0,11,4,8,0	0.476367472982	nan		edges_same_direction_twice=35	1	0.476367472982	0.00e+00
+nist_edm/KnurledKnob10.stp	11	ok	0.00417	1	11	1	0	3,0,6,0,0,2	0.17458579042(mesh)	ok	0.00962	1	11	1	3,0,6,2,0,0	0.219507791095	2.05e-01		edges_same_direction_twice=4	1	0.219507791095	0.00e+00
+nist_edm/NC_DRIVE.stp	20	ok	0.0117	1	20	0	0	9,0,3,0,0,8	nan(mesh)	ok	0.0345	1	20	1	0,0,0,0,0,20	4122781.80714	nan		invalid_surfaces=6 open_wires=20 edges_same_direction_twice=10	0	nan(mesh)	nan
+nist_edm/RestButton1.stp	15	ok	0.00447	1	15	1	0	3,0,4,0,0,8	0.0264312311724(mesh)	ok	0.0108	1	15	1	3,0,4,4,4,0	0.0335097407011	2.11e-01		edges_same_direction_twice=9	1	0.0335097407011	0.00e+00
+nist_edm/anc101_a.stp	127	ok	0.0296	1	127	1	0	55,0,68,0,0,4	nan(mesh)	ok	0.0934	1	127	1	55,0,68,4,0,0	8108593.2422	nan		edges_same_direction_twice=60	1	8114016.93429	6.69e-04
+nist_edm/bellow.stp	68	ok	0.0233	1	68	1	0	2,0,2,0,0,64	186553.868245(mesh)	ok	0.0346	1	68	1	2,0,2,64,0,0	187300.867305	3.99e-03		edges_same_direction_twice=4	1	187300.867305	0.00e+00
+nist_edm/bolt.stp	46	ok	0.00506	1	46	1	0	20,8,18,0,0,0	27316.8015509(mesh)	ok	0.0418	1	46	1	20,8,18,0,0,0	27636.3072568	1.16e-02		edges_same_direction_twice=36	1	27636.2622604	1.63e-06
+nist_edm/chamber.stp	50	ok	0.0278	1	50	1	0	15,4,27,0,0,4	53946.269084(mesh)	ok	0.0793	1	50	1	15,4,27,0,2,2	263099.637401	7.95e-01		edges_same_direction_twice=57	1	17644.8169856	9.33e-01
+nist_edm/clevis21.stp	66	ok	0.00988	1	66	1	0	30,0,24,0,0,12	1620499.93175(mesh)	ok	0.0383	1	66	1	30,0,24,12,0,0	1712743.56874	5.39e-02		edges_same_direction_twice=32	1	1712743.56874	0.00e+00
+nist_edm/flange.stp	102	ok	0.02	2	51	1	0	7,0,30,0,0,14	3892441642.6(mesh)	ok	0.0645	2	51	1	7,0,30,4,10,0	74715267699.1	9.48e-01		edges_same_direction_twice=36	1	74715267697.7	1.87e-11
+nist_edm/fork.stp	106	ok	0.017	1	106	0	0	29,0,47,0,0,30	nan(mesh)	ok	0.233	1	106	1	29,0,47,0,16,14	1934375.24906	nan		open_wires=1 edges_same_direction_twice=103	0	nan(mesh)	nan
+nist_edm/gear_40.stp	456	ok	0.0446	1	456	0	0	352,0,104,0,0,0	1.90446134058e-06(mesh)	ok	0.376	1	456	1	352,0,104,0,0,0	3.14887271485e-06	3.95e-01		open_wires=468 edges_same_direction_twice=524	1	3.14887271485e-06	0.00e+00
+nist_edm/interactingPockets.stp	66	ok	0.0113	1	66	1	0	30,0,36,0,0,0	9092.63721306(mesh)	ok	0.0624	1	66	1	30,0,36,0,0,0	12083.6947163	2.48e-01		edges_same_direction_twice=100	1	12083.6947163	0.00e+00
+nist_edm/main_block.stp	160	ok	0.0278	1	160	0	0	55,3,84,0,15,3	nan(mesh)	ok	0.103	1	160	1	55,0,84,3,18,0	509.957067057	nan		open_wires=6 edges_same_direction_twice=134	0	nan(mesh)	nan
+nist_edm/moon_buggy.stp	113	ok	0.0453	1	113	0	0	28,8,26,2,19,30	nan(mesh)	ok	0.18	1	113	1	28,8,26,4,40,7	1678598797.09	nan		open_wires=20 edges_same_direction_twice=45	0	nan(mesh)	nan
+nist_edm/mt_jaw_half_finish-mach-bup.stp	169	ok	0.0156	1	169	0	0	118,1,41,0,0,9	nan(mesh)	ok	0.153	1	169	1	118,0,42,5,2,2	2550072.33927	nan		open_wires=3 edges_same_direction_twice=81	0	nan(mesh)	nan
+nist_edm/needle-nose-inch.stp	31	ok	0.00654	1	31	1	0	18,0,5,0,0,8	1.06529521907(mesh)	ok	0.0677	1	31	1	18,0,5,0,4,4	0.887571332604	2.00e-01		edges_same_direction_twice=53	1	0.715348586163	1.94e-01
+nist_edm/screw_driver1.stp	107	ok	0.0658	1	107	0	0	5,3,14,4,2,79	nan(mesh)	ok	0.252	1	107	1	5,2,14,14,50,22	23729.3651387	nan		invalid_surfaces=1 open_wires=51 edges_same_direction_twice=128	0	nan(mesh)	nan
+nist_edm/sh-r44356-000-u.stp	21	ok	0.00396	1	21	1	0	5,3,8,0,3,2	nan(mesh)	ok	0.0169	1	21	1	5,0,8,0,8,0	0.00780025400077	nan		edges_same_direction_twice=23	1	0.00746780273956	4.26e-02
+nist_edm/sh-r44363-000-u-compressed.stp	30	ok	0.00488	1	30	1	0	2,0,8,0,0,20	6.71402496175e-05(mesh)	ok	0.0155	1	30	1	2,0,8,0,20,0	6.91481368876e-05	2.90e-02		edges_same_direction_twice=2	1	6.63003995669e-05	4.12e-02
+nist_edm/stock.stp	85	ok	0.107	1	85	0	0	23,0,27,0,5,30	nan(mesh)	ok	0.359	1	85	1	23,0,27,4,16,15	90.8262796648	nan		open_wires=5 edges_same_direction_twice=120	0	nan(mesh)	nan
+nist_edm/swivel1-Part.step	14	ok	0.00503	0	0	-	-	-	-	ok	0.00461	0	0	-	-	-				-	-	
+occt_booltest/bottle.step	72	ok	0.0439	2	68	0	0	13,16,30,0,1,8	nan(mesh)	ok	0.0567	2	68	1	13,16,30,0,9,0	6945.94428106	nan		open_wires=33 edges_same_direction_twice=31	1	nan(mesh)	nan
+occt_data/Bottom_from_brep.step	323	ok	0.255	1	323	0	0	52,8,110,1,4,148	nan(mesh)	ok	0.445	1	323	1	52,8,111,3,28,121	310019.710505	nan		invalid_surfaces=1 open_wires=176 edges_same_direction_twice=325	0	nan(mesh)	nan
+occt_data/CrankArm_from_brep.step	49	ok	0.049	1	49	0	0	19,0,11,5,0,14	nan(mesh)	ok	0.0728	1	49	1	19,0,9,5,0,16	38682.8877705	nan		open_wires=25 edges_same_direction_twice=64	0	nan(mesh)	nan
+occt_data/MODERN_MVCooker_1_from_brep.step	15	ok	0.00288	1	15	0	0	13,0,2,0,0,0	5546.89893139(mesh)	ok	0.0138	1	15	1	13,0,2,0,0,0	17993.1238898	6.92e-01		open_wires=7 edges_same_direction_twice=20	1	17993.1238898	0.00e+00
+occt_data/MODERN_Table_1_from_brep.step	22	ok	0.00539	1	22	0	0	12,0,10,0,0,0	13158.7015272(mesh)	ok	0.0173	1	22	1	12,0,10,0,0,0	30649.4813642	5.71e-01		open_wires=12 edges_same_direction_twice=14	1	13193.8091214(mesh)	5.70e-01
+occt_data/Pump_Nut_from_brep.step	25	ok	0.00711	1	25	0	0	8,0,1,0,2,14	21700.1373492(mesh)	ok	0.0295	1	25	1	8,0,1,14,2,0	24130.3105554	1.01e-01		open_wires=9 edges_same_direction_twice=16	1	38107.8751111	5.79e-01
+occt_data/Pump_TopCover_from_brep.step	8	ok	0.00684	1	8	0	0	2,2,2,0,0,2	144024.234534(mesh)	ok	0.0201	1	8	1	2,2,2,0,0,2	2495451.33124	9.42e-01		open_wires=3 edges_same_direction_twice=5	1	1707627.93547(mesh)	3.16e-01
+occt_data/bottle_from_brep.step	71	ok	0.0315	1	71	0	0	13,16,30,0,1,11	nan(mesh)	ok	0.0628	1	71	1	13,16,31,0,9,2	6962.95413339	nan		open_wires=34 edges_same_direction_twice=31	0	nan(mesh)	nan
+occt_data/linkrods.step	37	ok	0.00605	0	0	-	-	-	-	ok	0.447	1	37	1	6,0,4,0,9,18	3.84700170816				-	-	
+occt_data/screw.step	10	ok	0.000329	0	0	-	-	-	-	ok	0.0184	1	10	1	4,0,1,2,3,0	3788.27059337				-	-	

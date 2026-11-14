@@ -1,0 +1,16 @@
+ours_raw 1,0,0,15 CHAIN 1 FAIL 0.000132894 0 0 0 0 0 - - Native BRep Booleans require closed oriented solid operands
+ours_raw 1,0,0,15 EXIT 0
+ours_raw 1,1,1,45 CHAIN 1 FAIL 0.000133098 0 0 0 0 0 - - Native BRep Booleans require closed oriented solid operands
+ours_raw 1,1,1,45 EXIT 0
+ours_raw 0,0,1,5 CHAIN 1 FAIL 0.000111748 0 0 0 0 0 - - Native BRep Booleans require closed oriented solid operands
+ours_raw 0,0,1,5 EXIT 0
+ours_raw 0,1,0,90 CHAIN 1 FAIL 0.000107953 0 0 0 0 0 - - Native BRep Booleans require closed oriented solid operands
+ours_raw 0,1,0,90 EXIT 0
+ours_rep 1,0,0,15 CHAIN 1 FAIL 0.0057955 0 0 0 0 0 - - Native SSI fitted section does not cover its certified starting seed
+ours_rep 1,0,0,15 EXIT 0
+ours_rep 1,1,1,45 CHAIN 1 FAIL 0.463703 0 0 0 0 0 - - Support inventory curve lacks original paired agreement
+ours_rep 1,1,1,45 EXIT 0
+ours_rep 0,0,1,5 CHAIN 1 FAIL 1.58472 0 0 0 0 0 - - Native SSI could not resolve an overlapping rational hull pair: {"depth":48,"root_found":false,"reason":"root_not_found_and_hulls_not_separated","a":[-0.5481183822382399,12.528757451541946,0.6002738062268232,-0.547036749707896,12.529431612077646,0.6002851360999669,0.36959075927734375,0.9879150390625
+ours_rep 0,0,1,5 EXIT 0
+ours_rep 0,1,0,90 CHAIN 1 FAIL 3.27998 0 0 0 0 0 - - Analytic pullback did not obtain a complete paired-parameter certificate: Certified endpoint residual exceeds tolerance
+ours_rep 0,1,0,90 EXIT 0

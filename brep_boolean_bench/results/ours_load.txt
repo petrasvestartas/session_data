@@ -1,0 +1,595 @@
+LOAD github_misc/as1-ac-214.stp ok read_s 0.0125346 breps 5
+BREP github_misc/as1-ac-214.stp 0 18 48 32 1 1 1 0 kinds=6,0,12,0,0,0 0.0222075 530730.320583(mesh)
+PCURVES github_misc/as1-ac-214.stp 0 deg1=48 deg1+many=24 deg2=12 deg2+many=12
+DIAG github_misc/as1-ac-214.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP github_misc/as1-ac-214.stp 1 16 42 28 1 1 1 0 kinds=8,0,8,0,0,0 0.010413881 96910.106861(mesh)
+PCURVES github_misc/as1-ac-214.stp 1 deg1=52 deg1+many=16 deg2=12 deg2+many=4
+DIAG github_misc/as1-ac-214.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=28
+BREP github_misc/as1-ac-214.stp 2 7 12 8 1 1 1 0 kinds=3,0,4,0,0,0 0.007219866 3382.22505427(mesh)
+PCURVES github_misc/as1-ac-214.stp 2 deg1=8 deg1+many=8 deg2=4 deg2+many=4
+DIAG github_misc/as1-ac-214.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+BREP github_misc/as1-ac-214.stp 3 8 18 12 1 1 1 0 kinds=6,0,2,0,0,0 0.009138066 667.078266338(mesh)
+PCURVES github_misc/as1-ac-214.stp 3 deg1=28 deg1+many=4 deg2=2 deg2+many=2
+DIAG github_misc/as1-ac-214.stp 3 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP github_misc/as1-ac-214.stp 4 4 6 4 1 1 1 0 kinds=2,0,2,0,0,0 0.001413986 15449.4656948(mesh)
+PCURVES github_misc/as1-ac-214.stp 4 deg1=4 deg1+many=4 deg2=2 deg2+many=2
+DIAG github_misc/as1-ac-214.stp 4 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+EXIT github_misc/as1-ac-214.stp 0
+LOAD github_misc/nema-17-bracket.step ok read_s 0.0140752 breps 1
+BREP github_misc/nema-17-bracket.step 0 42 120 80 1 1 0 0 kinds=24,0,18,0,0,0 0.257821051 7290.69589676(mesh)
+PCURVES github_misc/nema-17-bracket.step 0 deg1=168 deg1+many=36 deg2=26 deg2+many=10
+DIAG github_misc/nema-17-bracket.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=24 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=68
+EXIT github_misc/nema-17-bracket.step 0
+LOAD hf_brepground/00015160_chamfer_12.step ok read_s 0.030997 breps 1
+BREP hf_brepground/00015160_chamfer_12.step 0 53 115 69 1 1 0 0 kinds=13,0,23,1,0,16 0.117084583 nan(mesh)
+PCURVES hf_brepground/00015160_chamfer_12.step 0 deg1=98 deg1+many=96 deg2=16 deg2+many=20
+DIAG hf_brepground/00015160_chamfer_12.step 0 invalid_surfaces=4 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=16 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=55
+EXIT hf_brepground/00015160_chamfer_12.step 0
+LOAD hf_brepground/00019536_chamfer_10.step ok read_s 0.00514656 breps 1
+BREP hf_brepground/00019536_chamfer_10.step 0 10 15 9 1 1 0 0 kinds=4,0,2,0,3,1 0.156927527 558093.460933(mesh)
+PCURVES hf_brepground/00019536_chamfer_10.step 0 deg1=6 deg1+many=18 deg11=1 deg2+many=5
+DIAG hf_brepground/00019536_chamfer_10.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=5
+EXIT hf_brepground/00019536_chamfer_10.step 0
+LOAD hf_brepground/00042148_fillet_11.step ok read_s 0.203617 breps 1
+BREP hf_brepground/00042148_fillet_11.step 0 120 253 134 1 1 0 0 kinds=15,0,51,0,0,54 0.030486982 nan(mesh)
+PCURVES hf_brepground/00042148_fillet_11.step 0 deg1=197 deg1+many=275 deg2=16 deg2+many=16
+DIAG hf_brepground/00042148_fillet_11.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=64 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=109
+EXIT hf_brepground/00042148_fillet_11.step 0
+LOAD hf_brepground/00071814_fillet_15.step ok read_s 0.0737573 breps 1
+BREP hf_brepground/00071814_fillet_15.step 0 80 184 106 1 1 0 0 kinds=20,0,37,0,4,19 0.035334773 nan(mesh)
+PCURVES hf_brepground/00071814_fillet_15.step 0 deg1=190 deg1+many=156 deg2=14 deg2+many=4 deg8=1 deg9=3
+DIAG hf_brepground/00071814_fillet_15.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=53 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=94
+EXIT hf_brepground/00071814_fillet_15.step 0
+LOAD hf_brepground/00089757_fillet_16.step ok read_s 0.0136069 breps 1
+BREP hf_brepground/00089757_fillet_16.step 0 38 96 61 1 1 0 0 kinds=17,0,15,0,1,5 0.00690456 nan(mesh)
+PCURVES hf_brepground/00089757_fillet_16.step 0 deg1=110 deg1+many=57 deg2=19 deg2+many=5 deg8=1
+DIAG hf_brepground/00089757_fillet_16.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=16 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=54
+EXIT hf_brepground/00089757_fillet_16.step 0
+LOAD hf_brepground/00161395_chamfer_16.step ok read_s 0.0481343 breps 1
+BREP hf_brepground/00161395_chamfer_16.step 0 50 116 68 1 1 0 0 kinds=20,2,20,0,0,8 0.009620301 nan(mesh)
+PCURVES hf_brepground/00161395_chamfer_16.step 0 deg1=140 deg1+many=76 deg13=2 deg2=6 deg7=4 deg9=2
+DIAG hf_brepground/00161395_chamfer_16.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=26
+EXIT hf_brepground/00161395_chamfer_16.step 0
+LOAD hf_brepground/00170968_fillet_10.step ok read_s 0.0314406 breps 1
+BREP hf_brepground/00170968_fillet_10.step 0 46 115 71 1 1 0 0 kinds=13,0,16,0,14,3 0.235621853 nan(mesh)
+PCURVES hf_brepground/00170968_fillet_10.step 0 deg1=92 deg1+many=104 deg2+many=32 deg4=1 deg8=1
+DIAG hf_brepground/00170968_fillet_10.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=22 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=61
+EXIT hf_brepground/00170968_fillet_10.step 0
+LOAD hf_brepground/00171214_fillet_11.step ok read_s 0.0621653 breps 1
+BREP hf_brepground/00171214_fillet_11.step 0 19 45 28 1 1 0 0 kinds=5,0,9,0,0,5 0.844108372 638835.17156(mesh)
+PCURVES hf_brepground/00171214_fillet_11.step 0 deg1=26 deg1+many=48 deg2=13 deg2+many=1 deg5+many=2
+DIAG hf_brepground/00171214_fillet_11.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=12
+EXIT hf_brepground/00171214_fillet_11.step 0
+LOAD hf_brepground/00275424_fillet_17.step ok read_s 0.0135616 breps 1
+BREP hf_brepground/00275424_fillet_17.step 0 21 35 20 1 1 0 0 kinds=6,0,6,3,4,2 0.193906715 770602.430259(mesh)
+PCURVES hf_brepground/00275424_fillet_17.step 0 deg1=16 deg1+many=44 deg2+many=10
+DIAG hf_brepground/00275424_fillet_17.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=3 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+EXIT hf_brepground/00275424_fillet_17.step 0
+LOAD hf_brepground/00290572_chamfer_12.step ok read_s 0.0191806 breps 1
+BREP hf_brepground/00290572_chamfer_12.step 0 42 104 64 1 1 0 0 kinds=19,0,16,0,0,7 0.007215568 nan(mesh)
+PCURVES hf_brepground/00290572_chamfer_12.step 0 deg1=134 deg1+many=60 deg2=13 deg9=1
+DIAG hf_brepground/00290572_chamfer_12.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=16 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+EXIT hf_brepground/00290572_chamfer_12.step 0
+LOAD hf_brepmfr/0m-3623639.stp ok read_s 0.00902763 breps 3
+BREP hf_brepmfr/0m-3623639.stp 0 26 72 48 1 1 0 0 kinds=6,0,20,0,0,0 0.450694106 681.021201489(mesh)
+PCURVES hf_brepmfr/0m-3623639.stp 0 deg1=64 deg1+many=40 deg2=40
+DIAG hf_brepmfr/0m-3623639.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=26 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=28
+BREP hf_brepmfr/0m-3623639.stp 1 4 6 4 1 1 0 0 kinds=2,0,2,0,0,0 0.027421819 2.91508606418(mesh)
+PCURVES hf_brepmfr/0m-3623639.stp 1 deg1=4 deg1+many=4 deg2=4
+DIAG hf_brepmfr/0m-3623639.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/0m-3623639.stp 2 4 6 4 1 1 0 0 kinds=2,0,2,0,0,0 0.027209727 2.54025874237(mesh)
+PCURVES hf_brepmfr/0m-3623639.stp 2 deg1=4 deg1+many=4 deg2=4
+DIAG hf_brepmfr/0m-3623639.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+EXIT hf_brepmfr/0m-3623639.stp 0
+LOAD hf_brepmfr/107050503-m8u-8700-a267.stp ok read_s 0.0136199 breps 5
+BREP hf_brepmfr/107050503-m8u-8700-a267.stp 0 36 102 68 1 1 0 0 kinds=16,0,20,0,0,0 0.13127715 nan(mesh)
+PCURVES hf_brepmfr/107050503-m8u-8700-a267.stp 0 deg1=122 deg1+many=41 deg2=41
+DIAG hf_brepmfr/107050503-m8u-8700-a267.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=42 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=36
+BREP hf_brepmfr/107050503-m8u-8700-a267.stp 1 2 6 4 1 0 0 0 kinds=0,0,2,0,0,0 0.01911639 0(mesh)
+PCURVES hf_brepmfr/107050503-m8u-8700-a267.stp 1 deg1=4 deg1+many=4
+DIAG hf_brepmfr/107050503-m8u-8700-a267.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=4 edges_same_direction_twice=4
+BREP hf_brepmfr/107050503-m8u-8700-a267.stp 2 2 6 4 1 0 0 0 kinds=0,0,2,0,0,0 0.019023179 0(mesh)
+PCURVES hf_brepmfr/107050503-m8u-8700-a267.stp 2 deg1=4 deg1+many=4
+DIAG hf_brepmfr/107050503-m8u-8700-a267.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=4 edges_same_direction_twice=4
+BREP hf_brepmfr/107050503-m8u-8700-a267.stp 3 2 6 4 1 0 0 0 kinds=0,0,2,0,0,0 0.018980696 0(mesh)
+PCURVES hf_brepmfr/107050503-m8u-8700-a267.stp 3 deg1=4 deg1+many=4
+DIAG hf_brepmfr/107050503-m8u-8700-a267.stp 3 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=4 edges_same_direction_twice=4
+BREP hf_brepmfr/107050503-m8u-8700-a267.stp 4 2 6 4 1 0 0 0 kinds=0,0,2,0,0,0 0.018941983 0(mesh)
+PCURVES hf_brepmfr/107050503-m8u-8700-a267.stp 4 deg1=4 deg1+many=4
+DIAG hf_brepmfr/107050503-m8u-8700-a267.stp 4 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=4 edges_same_direction_twice=4
+EXIT hf_brepmfr/107050503-m8u-8700-a267.stp 0
+LOAD hf_brepmfr/16P-03303.step ok read_s 0.49607 breps 2
+BREP hf_brepmfr/16P-03303.step 0 202 610 414 1 1 1 0 kinds=30,62,34,0,0,76 4.462748935 3.13325295914(mesh)
+PCURVES hf_brepmfr/16P-03303.step 0 deg1=184 deg1+many=980 deg2=56
+DIAG hf_brepmfr/16P-03303.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=310
+BREP hf_brepmfr/16P-03303.step 1 59 142 91 1 1 1 0 kinds=21,3,20,0,0,15 0.128060343 15.3171392413(mesh)
+PCURVES hf_brepmfr/16P-03303.step 1 deg1=114 deg1+many=97 deg2=50 deg2+many=1 deg3=20 deg3+many=2
+DIAG hf_brepmfr/16P-03303.step 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=27
+EXIT hf_brepmfr/16P-03303.step 0
+LOAD hf_brepmfr/sample_round.stp ok read_s 0.0574509 breps 1
+BREP hf_brepmfr/sample_round.stp 0 14 28 16 1 1 0 0 kinds=3,0,3,0,0,8 2.611668539 64176490.0936(mesh)
+PCURVES hf_brepmfr/sample_round.stp 0 deg1=4 deg1+many=46 deg2=2 deg2+many=2 deg3+many=2
+DIAG hf_brepmfr/sample_round.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=11 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=10
+EXIT hf_brepmfr/sample_round.stp 0
+LOAD hf_brepmfr/sample_round_1.stp ok read_s 0.0152011 breps 1
+BREP hf_brepmfr/sample_round_1.stp 0 14 28 16 1 1 0 0 kinds=3,0,5,0,0,6 0.041384634 nan(mesh)
+PCURVES hf_brepmfr/sample_round_1.stp 0 deg1=8 deg1+many=42 deg2=6
+DIAG hf_brepmfr/sample_round_1.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=11 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+EXIT hf_brepmfr/sample_round_1.stp 0
+LOAD hf_brepmfr/sample_round_2.stp ok read_s 0.376233 breps 1
+BREP hf_brepmfr/sample_round_2.stp 0 15 28 16 1 1 0 0 kinds=3,0,4,0,0,8 1.624860044 38076708.3017(mesh)
+PCURVES hf_brepmfr/sample_round_2.stp 0 deg1=8 deg1+many=42 deg2=6
+DIAG hf_brepmfr/sample_round_2.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=12 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+EXIT hf_brepmfr/sample_round_2.stp 0
+LOAD hf_brepmfr/zip_chainlinkouter00.stp ok read_s 0.00762728 breps 1
+BREP hf_brepmfr/zip_chainlinkouter00.stp 0 40 92 64 1 1 0 0 kinds=12,0,28,0,0,0 0.413876291 336.178234902(mesh)
+PCURVES hf_brepmfr/zip_chainlinkouter00.stp 0 deg1=56 deg1+many=64 deg2=64
+DIAG hf_brepmfr/zip_chainlinkouter00.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=32 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=36
+EXIT hf_brepmfr/zip_chainlinkouter00.stp 0
+LOAD hf_brepmfr/zip_cylinder400bore000.stp ok read_s 0.0673556 breps 1
+BREP hf_brepmfr/zip_cylinder400bore000.stp 0 188 410 236 1 1 0 0 kinds=34,8,72,0,2,72 0.230524111 nan(mesh)
+PCURVES hf_brepmfr/zip_cylinder400bore000.stp 0 deg1=236 deg1+many=484 deg2=100
+DIAG hf_brepmfr/zip_cylinder400bore000.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=178 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=144
+EXIT hf_brepmfr/zip_cylinder400bore000.stp 0
+LOAD hf_brepmfr/zip_cylinder600bore000.stp ok read_s 0.0965872 breps 1
+BREP hf_brepmfr/zip_cylinder600bore000.stp 0 184 410 232 1 1 0 0 kinds=42,0,74,0,4,64 0.007350058 nan(mesh)
+PCURVES hf_brepmfr/zip_cylinder600bore000.stp 0 deg1=276 deg1+many=420 deg2=120 deg3+many=4
+DIAG hf_brepmfr/zip_cylinder600bore000.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=172 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=136
+EXIT hf_brepmfr/zip_cylinder600bore000.stp 0
+LOAD hf_brepmfr/zip_defaultamacchina000.stp ok read_s 0.017379 breps 14
+BREP hf_brepmfr/zip_defaultamacchina000.stp 0 4 6 4 1 1 0 0 kinds=0,0,2,0,0,2 0.427748162 137513496.909(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 0 deg1=4 deg1+many=8
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_defaultamacchina000.stp 1 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000862794 40000(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 1 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 2 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000255586 165644.188866(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 2 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 3 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000258984 125128.129211(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 3 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 3 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 4 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000223284 125128.129211(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 4 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 4 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 5 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000215248 165644.188866(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 5 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 5 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 6 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000221005 40000(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 6 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 6 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_defaultamacchina000.stp 7 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000242976 40000(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 7 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 7 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_defaultamacchina000.stp 8 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000214598 165644.188866(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 8 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 8 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 9 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000211396 125128.129211(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 9 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 9 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 10 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000213881 125128.129211(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 10 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 10 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 11 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000239069 165644.188866(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 11 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 11 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 12 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.00021964 40000(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 12 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 12 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=8
+BREP hf_brepmfr/zip_defaultamacchina000.stp 13 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000213417 79550000(mesh)
+PCURVES hf_brepmfr/zip_defaultamacchina000.stp 13 deg1=24
+DIAG hf_brepmfr/zip_defaultamacchina000.stp 13 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+EXIT hf_brepmfr/zip_defaultamacchina000.stp 0
+LOAD hf_brepmfr/zip_dfautbrutdusinage0001.stp ok read_s 0.0780292 breps 35
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 0 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.099473664 2351.30881207(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 0 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 1 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.100749791 7081.65045966(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 1 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 2 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.117492036 12016.6029914(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 2 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 3 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.139723632 248.804678553(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 3 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 3 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 4 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.234227643 298181.857197(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 4 deg1=64 deg1+many=16 deg3=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 4 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 5 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.287465575 1162.89285777(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 5 deg1=64 deg1+many=16 deg3=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 5 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 6 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.229884104 0(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 6 deg1=64 deg1+many=16 deg3=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 6 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 7 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.304552978 298181.857197(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 7 deg1=64 deg1+many=16 deg3=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 7 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 8 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.318796867 6593.84256558(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 8 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 8 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 9 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.301655897 6351.57296036(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 9 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 9 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 10 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.166797202 961.298095051(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 10 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 10 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 11 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.099439814 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 11 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 11 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 12 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.10261086 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 12 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 12 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 13 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.063983229 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 13 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 13 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 14 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.070729011 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 14 deg1=64 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 14 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 15 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.30154867 7226.91629363(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 15 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 15 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 16 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.216265212 0(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 16 deg1=64 deg1+many=16 deg3=16
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 16 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 17 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.289432555 2265.61018228(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 17 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 17 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 18 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.111764329 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 18 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 18 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 19 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.30065497 5495.25929955(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 19 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 19 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 20 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.106076934 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 20 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 20 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 21 18 48 32 1 1 0 0 kinds=10,0,8,0,0,0 0.300013141 5495.25929955(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 21 deg1=64 deg1+many=16 deg2=8 deg3=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 21 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 22 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.001429549 87500000(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 22 deg1=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 22 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 23 19 36 24 1 1 0 0 kinds=7,0,12,0,0,0 0.674615519 22117650.8268(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 23 deg1=24 deg1+many=24 deg2=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 23 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=12 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 24 19 36 24 1 1 0 0 kinds=7,0,12,0,0,0 0.647092144 22384600.4549(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 24 deg1=24 deg1+many=24 deg2=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 24 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=12 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 25 19 36 24 1 1 0 0 kinds=7,0,12,0,0,0 0.640742937 22384600.4549(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 25 deg1=24 deg1+many=24 deg2=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 25 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=12 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 26 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000482144 553500(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 26 deg1=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 26 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 27 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.406788141 5466247.04732(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 27 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 27 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 28 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000385414 553500(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 28 deg1=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 28 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 29 6 12 8 1 1 0 0 kinds=6,0,0,0,0,0 0.000242196 553500(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 29 deg1=24
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 29 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 30 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.361939487 5466247.04732(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 30 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 30 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 31 7 12 8 1 1 0 0 kinds=3,0,4,0,0,0 0.393884712 5466247.04732(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 31 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 31 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=6
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 32 12 29 19 1 1 0 0 kinds=2,2,6,0,0,2 0.340837783 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 32 deg1=12 deg1+many=41 deg2=5
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 32 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=11 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=3
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 33 12 29 19 1 1 0 0 kinds=2,2,6,0,0,2 0.29102259 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 33 deg1=12 deg1+many=41 deg2=5
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 33 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=11 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=3
+BREP hf_brepmfr/zip_dfautbrutdusinage0001.stp 34 12 29 19 1 1 0 0 kinds=2,2,6,0,0,2 0.306799813 nan(mesh)
+PCURVES hf_brepmfr/zip_dfautbrutdusinage0001.stp 34 deg1=12 deg1+many=41 deg2=5
+DIAG hf_brepmfr/zip_dfautbrutdusinage0001.stp 34 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=11 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=3
+EXIT hf_brepmfr/zip_dfautbrutdusinage0001.stp 0
+LOAD hf_brepmfr/zip_doorlatchvonduprin0001.stp ok read_s 0.0330743 breps 1
+BREP hf_brepmfr/zip_doorlatchvonduprin0001.stp 0 58 128 74 1 1 0 0 kinds=14,4,26,0,0,14 0.027227397 nan(mesh)
+PCURVES hf_brepmfr/zip_doorlatchvonduprin0001.stp 0 deg1=110 deg1+many=122 deg2=20 deg3=2 deg3+many=2
+DIAG hf_brepmfr/zip_doorlatchvonduprin0001.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=57 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=52
+EXIT hf_brepmfr/zip_doorlatchvonduprin0001.stp 0
+LOAD hf_brepmfr/zip_dripmanifold0.stp ok read_s 0.0191004 breps 1
+BREP hf_brepmfr/zip_dripmanifold0.stp 0 66 146 96 1 1 0 0 kinds=16,0,28,0,0,22 0.025553261 nan(mesh)
+PCURVES hf_brepmfr/zip_dripmanifold0.stp 0 deg1=92 deg1+many=116 deg2=80 deg2+many=4
+DIAG hf_brepmfr/zip_dripmanifold0.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=54 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=42
+EXIT hf_brepmfr/zip_dripmanifold0.stp 0
+LOAD hf_brepmfr/zip_ea0000006992revit.stp ok read_s 0.154825 breps 22
+BREP hf_brepmfr/zip_ea0000006992revit.stp 0 3 20 16 1 0 0 0 kinds=1,0,2,0,0,0 0.185693452 3.8690593645e-14(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 0 deg1=8 deg1+many=14 deg2=2 deg3+many=2
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=2 faces_without_wire=0 edges_not_used_twice=14 edges_same_direction_twice=16
+BREP hf_brepmfr/zip_ea0000006992revit.stp 1 35 82 52 1 1 0 0 kinds=11,0,5,0,0,19 0.101157498 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 1 deg1=36 deg1+many=72 deg2=32 deg3+many=24
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=32 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 2 35 82 52 1 1 0 0 kinds=11,0,5,0,0,19 0.095802688 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 2 deg1=36 deg1+many=72 deg2=32 deg3+many=24
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 2 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=32 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 3 22 52 32 1 1 0 0 kinds=8,0,2,0,0,12 0.002347307 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 3 deg1=16 deg1+many=44 deg2=20 deg3+many=24
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 3 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=22 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=10
+BREP hf_brepmfr/zip_ea0000006992revit.stp 4 22 52 32 1 1 0 0 kinds=8,0,2,0,0,12 0.00226793 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 4 deg1=16 deg1+many=44 deg2=20 deg3+many=24
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 4 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=22 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=10
+BREP hf_brepmfr/zip_ea0000006992revit.stp 5 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.048206591 391.479485954(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 5 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 5 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 6 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.048264786 391.479485954(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 6 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 6 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 7 2 4 2 1 1 1 1 kinds=0,2,0,0,0,0 0.003423817 8573.13384789
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 7 deg1=2 deg1+many=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 8 2 4 2 1 1 1 1 kinds=0,2,0,0,0,0 0.006412026 -0.197755012823
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 8 deg1=2 deg1+many=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 9 2 4 2 1 1 1 1 kinds=0,2,0,0,0,0 0.003482227 8580.2376481
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 9 deg1=2 deg1+many=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 10 15 36 24 1 1 0 0 kinds=11,0,4,0,0,0 0.093103601 1997.3992609(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 10 deg1=40 deg1+many=16 deg2=16
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 10 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=10 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=20
+BREP hf_brepmfr/zip_ea0000006992revit.stp 11 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.071858152 2083.34349622(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 11 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 11 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 12 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.072184449 2083.34349622(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 12 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 12 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 13 10 18 12 1 1 0 0 kinds=4,0,6,0,0,0 0.325835248 178.913814324(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 13 deg1=12 deg1+many=12 deg2=12
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 13 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_ea0000006992revit.stp 14 10 18 12 1 1 0 0 kinds=4,0,6,0,0,0 0.263008656 4134.23969074(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 14 deg1=12 deg1+many=12 deg2=12
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 14 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+BREP hf_brepmfr/zip_ea0000006992revit.stp 15 68 195 134 1 1 0 0 kinds=8,0,26,3,3,28 0.020127487 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 15 deg1=114 deg1+many=218 deg2=43 deg2+many=3 deg3=12
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 15 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=69 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=46
+BREP hf_brepmfr/zip_ea0000006992revit.stp 16 27 74 47 1 1 0 0 kinds=3,0,14,0,2,8 0.02315212 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 16 deg1=48 deg1+many=90 deg2=10
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 16 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=24 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=22
+BREP hf_brepmfr/zip_ea0000006992revit.stp 17 26 74 48 1 1 0 0 kinds=14,0,8,0,0,4 0.056838462 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 17 deg1=76 deg1+many=48 deg2=23 deg2+many=1
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 17 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=28 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=18
+BREP hf_brepmfr/zip_ea0000006992revit.stp 18 22 60 40 1 1 0 0 kinds=11,0,11,0,0,0 0.401434306 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 18 deg1=76 deg1+many=26 deg2=18
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 18 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=22 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=28
+BREP hf_brepmfr/zip_ea0000006992revit.stp 19 33 88 58 1 1 0 0 kinds=21,0,10,0,0,2 0.184710446 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 19 deg1=116 deg1+many=32 deg2=22 deg2+many=2 deg3=4
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 19 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=35 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=34
+BREP hf_brepmfr/zip_ea0000006992revit.stp 20 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.072078013 447.755215845(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 20 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 20 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+BREP hf_brepmfr/zip_ea0000006992revit.stp 21 6 12 8 1 1 0 0 kinds=2,0,4,0,0,0 0.0639915 393.834749962(mesh)
+PCURVES hf_brepmfr/zip_ea0000006992revit.stp 21 deg1=8 deg1+many=8 deg2=8
+DIAG hf_brepmfr/zip_ea0000006992revit.stp 21 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+EXIT hf_brepmfr/zip_ea0000006992revit.stp 0
+LOAD hf_brepmfr/zip_ea0000006997revit.stp ok read_s 0.124637 breps 1
+BREP hf_brepmfr/zip_ea0000006997revit.stp 0 75 191 120 1 1 0 0 kinds=30,0,37,1,0,7 0.005135353 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000006997revit.stp 0 deg1=214 deg1+many=116 deg2=52
+DIAG hf_brepmfr/zip_ea0000006997revit.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=74 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=53
+EXIT hf_brepmfr/zip_ea0000006997revit.stp 0
+LOAD hf_brepmfr/zip_ea0000007008revit.stp ok read_s 0.160821 breps 1
+BREP hf_brepmfr/zip_ea0000007008revit.stp 0 68 196 128 1 1 0 0 kinds=24,2,36,0,0,6 0.310681129 nan(mesh)
+PCURVES hf_brepmfr/zip_ea0000007008revit.stp 0 deg1=176 deg1+many=180 deg2=36
+DIAG hf_brepmfr/zip_ea0000007008revit.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=58 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=58
+EXIT hf_brepmfr/zip_ea0000007008revit.stp 0
+LOAD hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step ok read_s 0.0349722 breps 1
+BREP hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step 0 39 88 46 1 1 0 0 kinds=9,8,17,0,0,5 0.219310576 nan(mesh)
+PCURVES hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step 0 deg1=67 deg1+many=88 deg2=10 deg2+many=4
+DIAG hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=18 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=26
+EXIT hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step 0
+LOAD hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step ok read_s 0.0720964 breps 1
+BREP hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step 0 124 280 160 1 1 0 0 kinds=76,0,4,3,4,37 0.443376071 60939.9271996(mesh)
+PCURVES hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step 0 deg1=356 deg1+many=160 deg2=13 deg2+many=7 deg3=12 deg5+many=12
+DIAG hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=76 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=122
+EXIT hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step 0
+LOAD hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step ok read_s 0.079316 breps 1
+BREP hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step 0 99 246 140 1 1 0 0 kinds=23,16,52,0,0,8 0.153927479 nan(mesh)
+PCURVES hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step 0 deg1=214 deg1+many=240 deg2=17 deg2+many=15
+DIAG hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=51 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=95
+EXIT hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step 0
+LOAD hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step ok read_s 0.285152 breps 1
+BREP hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step 0 38 90 54 1 1 0 0 kinds=7,0,4,0,0,27 0.093288314 nan(mesh)
+PCURVES hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step 0 deg1=43 deg1+many=101 deg11=1 deg2+many=8 deg4=5 deg4+many=1 deg5=2 deg6=1 deg6+many=1 deg7=8 deg7+many=3 deg8=2 deg9=4
+DIAG hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=19 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=50
+EXIT hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step 0
+LOAD hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step ok read_s 0.00508916 breps 1
+BREP hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step 0 14 36 24 1 1 0 0 kinds=6,0,8,0,0,0 0.079282503 19660.1050395(mesh)
+PCURVES hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step 0 deg1=40 deg1+many=16 deg2=14 deg2+many=2
+DIAG hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=8 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=22
+EXIT hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step 0
+LOAD hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step ok read_s 0.0274557 breps 1
+BREP hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step 0 35 75 42 1 1 0 0 kinds=13,4,10,0,0,8 0.070666326 nan(mesh)
+PCURVES hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step 0 deg1=60 deg1+many=72 deg2=15 deg2+many=3
+DIAG hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=15 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=20
+EXIT hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step 0
+LOAD hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step ok read_s 0.00920575 breps 1
+BREP hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step 0 50 100 52 1 1 0 0 kinds=40,0,2,0,0,8 0.024972452 nan(mesh)
+PCURVES hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step 0 deg1=160 deg1+many=31 deg2=3 deg2+many=2 deg4=4
+DIAG hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=31 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=56
+EXIT hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step 0
+LOAD hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step ok read_s 0.0213978 breps 1
+BREP hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step 0 58 125 70 1 1 0 0 kinds=24,10,18,0,0,6 0.054312617 nan(mesh)
+PCURVES hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step 0 deg1=156 deg1+many=90 deg2=4
+DIAG hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=26 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=56
+EXIT hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step 0
+LOAD hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step ok read_s 0.0111229 breps 1
+BREP hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step 0 62 147 81 1 1 0 0 kinds=15,8,31,0,0,8 0.009003822 nan(mesh)
+PCURVES hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step 0 deg1=152 deg1+many=118 deg2=10 deg2+many=10
+DIAG hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=39 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=61
+EXIT hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step 0
+LOAD hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step ok read_s 0.0228157 breps 1
+BREP hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step 0 47 100 61 1 1 0 0 kinds=12,0,12,11,8,4 0.382155121 102926.304379(mesh)
+PCURVES hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step 0 deg1=28 deg1+many=136 deg2=12 deg2+many=24
+DIAG hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=21 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=19
+EXIT hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step 0
+LOAD mcneel_rebuilt/mesh_blob_80.step ok read_s 0.0265182 breps 1
+BREP mcneel_rebuilt/mesh_blob_80.step 0 80 120 42 1 1 1 1 kinds=80,0,0,0,0,0 0.052975383 28263.2867334
+PCURVES mcneel_rebuilt/mesh_blob_80.step 0 deg1=240
+EXIT mcneel_rebuilt/mesh_blob_80.step 0
+LOAD mcneel_rebuilt/threaded_rod_cutter.step ok read_s 0.0159247 breps 1
+BREP mcneel_rebuilt/threaded_rod_cutter.step 0 5 9 6 1 1 0 0 kinds=2,0,1,0,0,2 0.885350783 5.92930252452e-13(mesh)
+PCURVES mcneel_rebuilt/threaded_rod_cutter.step 0 deg1=9 deg1+many=9
+DIAG mcneel_rebuilt/threaded_rod_cutter.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=4 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=3
+EXIT mcneel_rebuilt/threaded_rod_cutter.step 0
+LOAD nist_edm/260012.stp ok read_s 0.131235 breps 1
+BREP nist_edm/260012.stp 0 147 489 311 1 1 0 0 kinds=53,1,46,3,2,42 0.021266129 nan(mesh)
+PCURVES nist_edm/260012.stp 0 deg1=425 deg1+many=265 deg2=169 deg2+many=7 deg3+many=48
+DIAG nist_edm/260012.stp 0 invalid_surfaces=3 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=175
+EXIT nist_edm/260012.stp 0
+LOAD nist_edm/DoubleCam1.stp ok read_s 0.00850053 breps 1
+BREP nist_edm/DoubleCam1.stp 0 34 92 59 1 1 1 0 kinds=12,0,10,0,0,12 0.008106104 nan(mesh)
+PCURVES nist_edm/DoubleCam1.stp 0 deg1=86 deg1+many=75 deg2=23
+DIAG nist_edm/DoubleCam1.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=35
+EXIT nist_edm/DoubleCam1.stp 0
+LOAD nist_edm/KnurledKnob10.stp ok read_s 0.00417312 breps 1
+BREP nist_edm/KnurledKnob10.stp 0 11 22 14 1 1 1 0 kinds=3,0,6,0,0,2 0.015196354 0.17458579042(mesh)
+PCURVES nist_edm/KnurledKnob10.stp 0 deg1=16 deg1+many=16 deg2=12
+DIAG nist_edm/KnurledKnob10.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+EXIT nist_edm/KnurledKnob10.stp 0
+LOAD nist_edm/NC_DRIVE.stp ok read_s 0.0116735 breps 1
+BREP nist_edm/NC_DRIVE.stp 0 20 51 34 1 1 0 0 kinds=9,0,3,0,0,8 0.038477771 nan(mesh)
+PCURVES nist_edm/NC_DRIVE.stp 0 deg1=54 deg1+many=46 deg3=2
+DIAG nist_edm/NC_DRIVE.stp 0 invalid_surfaces=6 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=10
+EXIT nist_edm/NC_DRIVE.stp 0
+LOAD nist_edm/RestButton1.stp ok read_s 0.00446581 breps 1
+BREP nist_edm/RestButton1.stp 0 15 31 19 1 1 1 0 kinds=3,0,4,0,0,8 0.06078009 0.0264312311724(mesh)
+PCURVES nist_edm/RestButton1.stp 0 deg1=16 deg1+many=37 deg2=9
+DIAG nist_edm/RestButton1.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=9
+EXIT nist_edm/RestButton1.stp 0
+LOAD nist_edm/anc101_a.stp ok read_s 0.0295694 breps 1
+BREP nist_edm/anc101_a.stp 0 127 314 206 1 1 1 0 kinds=55,0,68,0,0,4 0.045327986 nan(mesh)
+PCURVES nist_edm/anc101_a.stp 0 deg1=352 deg1+many=140 deg2=132
+DIAG nist_edm/anc101_a.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=60
+EXIT nist_edm/anc101_a.stp 0
+LOAD nist_edm/bellow.stp ok read_s 0.023258 breps 1
+BREP nist_edm/bellow.stp 0 68 136 70 1 1 1 0 kinds=2,0,2,0,0,64 0.067404567 186553.868245(mesh)
+PCURVES nist_edm/bellow.stp 0 deg1=132 deg1+many=132 deg2=7 deg2+many=1
+DIAG nist_edm/bellow.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=4
+EXIT nist_edm/bellow.stp 0
+LOAD nist_edm/bolt.stp ok read_s 0.00505789 breps 1
+BREP nist_edm/bolt.stp 0 46 104 60 1 1 1 0 kinds=20,8,18,0,0,0 0.113886109 27316.8015509(mesh)
+PCURVES nist_edm/bolt.stp 0 deg1=134 deg1+many=60 deg2=12
+DIAG nist_edm/bolt.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=36
+EXIT nist_edm/bolt.stp 0
+LOAD nist_edm/chamber.stp ok read_s 0.0278322 breps 1
+BREP nist_edm/chamber.stp 0 50 102 80 1 1 1 0 kinds=15,4,27,0,0,4 0.279627765 53946.269084(mesh)
+PCURVES nist_edm/chamber.stp 0 deg1=204
+DIAG nist_edm/chamber.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=57
+EXIT nist_edm/chamber.stp 0
+LOAD nist_edm/clevis21.stp ok read_s 0.00987654 breps 1
+BREP nist_edm/clevis21.stp 0 66 144 92 1 1 1 0 kinds=30,0,24,0,0,12 0.039239207 1620499.93175(mesh)
+PCURVES nist_edm/clevis21.stp 0 deg1=168 deg1+many=72 deg2=48
+DIAG nist_edm/clevis21.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=32
+EXIT nist_edm/clevis21.stp 0
+LOAD nist_edm/flange.stp ok read_s 0.0199529 breps 2
+BREP nist_edm/flange.stp 0 51 118 74 1 1 1 0 kinds=7,0,30,0,0,14 0.144951254 3892441642.6(mesh)
+PCURVES nist_edm/flange.stp 0 deg1=68 deg1+many=108 deg2=60
+DIAG nist_edm/flange.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=36
+BREP nist_edm/flange.stp 1 51 118 74 1 1 1 0 kinds=7,0,30,0,0,14 0.112911842 3892441642.6(mesh)
+PCURVES nist_edm/flange.stp 1 deg1=68 deg1+many=108 deg2=60
+DIAG nist_edm/flange.stp 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=36
+EXIT nist_edm/flange.stp 0
+LOAD nist_edm/fork.stp ok read_s 0.0170439 breps 1
+BREP nist_edm/fork.stp 0 106 255 163 1 1 0 0 kinds=29,0,47,0,0,30 0.038990468 nan(mesh)
+PCURVES nist_edm/fork.stp 0 deg1=509
+DIAG nist_edm/fork.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=1 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=103
+EXIT nist_edm/fork.stp 0
+LOAD nist_edm/gear_40.stp ok read_s 0.044602 breps 1
+BREP nist_edm/gear_40.stp 0 456 1356 904 1 1 0 0 kinds=352,0,104,0,0,0 0.80827787 1.90446134058e-06(mesh)
+PCURVES nist_edm/gear_40.stp 0 deg1=2296 deg1+many=208 deg2=176 deg2+many=32
+DIAG nist_edm/gear_40.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=468 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=524
+EXIT nist_edm/gear_40.stp 0
+LOAD nist_edm/interactingPockets.stp ok read_s 0.0112731 breps 1
+BREP nist_edm/interactingPockets.stp 0 66 180 120 1 1 1 0 kinds=30,0,36,0,0,0 0.204901866 9092.63721306(mesh)
+PCURVES nist_edm/interactingPockets.stp 0 deg1=216 deg1+many=72 deg2=72
+DIAG nist_edm/interactingPockets.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=100
+EXIT nist_edm/interactingPockets.stp 0
+LOAD nist_edm/main_block.stp ok read_s 0.0278009 breps 1
+BREP nist_edm/main_block.stp 0 160 424 244 1 1 0 0 kinds=55,3,84,0,15,3 0.024260695 nan(mesh)
+PCURVES nist_edm/main_block.stp 0 deg1=381 deg1+many=259 deg2=116 deg2+many=29
+DIAG nist_edm/main_block.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=6 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=134
+EXIT nist_edm/main_block.stp 0
+LOAD nist_edm/moon_buggy.stp ok read_s 0.0453414 breps 1
+BREP nist_edm/moon_buggy.stp 0 113 311 185 1 1 0 0 kinds=28,8,26,2,19,30 0.146506274 nan(mesh)
+PCURVES nist_edm/moon_buggy.stp 0 deg1=186 deg1+many=330 deg2=52 deg3+many=5 deg7=4
+DIAG nist_edm/moon_buggy.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=20 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=45
+EXIT nist_edm/moon_buggy.stp 0
+LOAD nist_edm/mt_jaw_half_finish-mach-bup.stp ok read_s 0.0156285 breps 1
+BREP nist_edm/mt_jaw_half_finish-mach-bup.stp 0 169 478 323 1 1 0 0 kinds=118,1,41,0,0,9 0.151897 nan(mesh)
+PCURVES nist_edm/mt_jaw_half_finish-mach-bup.stp 0 deg1=953
+DIAG nist_edm/mt_jaw_half_finish-mach-bup.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=3 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=81
+EXIT nist_edm/mt_jaw_half_finish-mach-bup.stp 0
+LOAD nist_edm/needle-nose-inch.stp ok read_s 0.00653897 breps 1
+BREP nist_edm/needle-nose-inch.stp 0 31 87 58 1 1 1 0 kinds=18,0,5,0,0,8 0.459518551 1.06529521907(mesh)
+PCURVES nist_edm/needle-nose-inch.stp 0 deg1=98 deg1+many=42 deg2=22 deg3+many=12
+DIAG nist_edm/needle-nose-inch.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=53
+EXIT nist_edm/needle-nose-inch.stp 0
+LOAD nist_edm/screw_driver1.stp ok read_s 0.065843 breps 1
+BREP nist_edm/screw_driver1.stp 0 107 404 275 1 1 0 0 kinds=5,3,14,4,2,79 0.048943906 nan(mesh)
+PCURVES nist_edm/screw_driver1.stp 0 deg1=150 deg1+many=534 deg2=6 deg3=8 deg3+many=14
+DIAG nist_edm/screw_driver1.stp 0 invalid_surfaces=1 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=51 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=128
+EXIT nist_edm/screw_driver1.stp 0
+LOAD nist_edm/sh-r44356-000-u.stp ok read_s 0.00396205 breps 1
+BREP nist_edm/sh-r44356-000-u.stp 0 21 65 36 1 1 1 0 kinds=5,3,8,0,3,2 0.023586601 nan(mesh)
+PCURVES nist_edm/sh-r44356-000-u.stp 0 deg1=29 deg1+many=68 deg2=20
+DIAG nist_edm/sh-r44356-000-u.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=23
+EXIT nist_edm/sh-r44356-000-u.stp 0
+LOAD nist_edm/sh-r44363-000-u-compressed.stp ok read_s 0.00487944 breps 1
+BREP nist_edm/sh-r44363-000-u-compressed.stp 0 30 60 30 1 1 1 0 kinds=2,0,8,0,0,20 0.121717457 6.71402496175e-05(mesh)
+PCURVES nist_edm/sh-r44363-000-u-compressed.stp 0 deg1=18 deg1+many=96 deg2=4
+DIAG nist_edm/sh-r44363-000-u-compressed.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=0 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+EXIT nist_edm/sh-r44363-000-u-compressed.stp 0
+LOAD nist_edm/stock.stp ok read_s 0.107056 breps 1
+BREP nist_edm/stock.stp 0 85 251 165 1 1 0 0 kinds=23,0,27,0,5,30 0.158870948 nan(mesh)
+PCURVES nist_edm/stock.stp 0 deg1=181 deg1+many=212 deg2=85 deg3+many=15
+DIAG nist_edm/stock.stp 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=5 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=120
+EXIT nist_edm/stock.stp 0
+LOAD nist_edm/swivel1-Part.step ok read_s 0.00503153 breps 0
+EXIT nist_edm/swivel1-Part.step 0
+LOAD occt_booltest/bottle.step ok read_s 0.0438789 breps 2
+BREP occt_booltest/bottle.step 0 68 136 69 1 1 0 0 kinds=13,16,30,0,1,8 0.172172195 nan(mesh)
+PCURVES occt_booltest/bottle.step 0 deg1=112 deg1+many=144 deg2=8 deg2+many=4
+DIAG occt_booltest/bottle.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=33 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=31
+BREP occt_booltest/bottle.step 1 4 7 5 1 1 0 0 kinds=0,0,1,0,0,3 0.16964968 218.620593231(mesh)
+PCURVES occt_booltest/bottle.step 1 deg1=1 deg1+many=12
+DIAG occt_booltest/bottle.step 1 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=1 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=2
+EXIT occt_booltest/bottle.step 0
+LOAD occt_data/Bottom_from_brep.step ok read_s 0.25507 breps 1
+BREP occt_data/Bottom_from_brep.step 0 323 734 407 1 1 0 0 kinds=52,8,110,1,4,148 0.987915879 nan(mesh)
+PCURVES occt_data/Bottom_from_brep.step 0 deg1=607 deg1+many=728 deg10=3 deg11=2 deg11+many=4 deg2=36 deg2+many=19 deg3=4 deg4+many=4 deg5+many=2 deg6=14 deg7=14 deg8=6 deg9=10 deg9+many=2
+DIAG occt_data/Bottom_from_brep.step 0 invalid_surfaces=1 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=176 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=325
+EXIT occt_data/Bottom_from_brep.step 0
+LOAD occt_data/CrankArm_from_brep.step ok read_s 0.0490197 breps 1
+BREP occt_data/CrankArm_from_brep.step 0 49 142 88 1 1 0 0 kinds=19,0,11,5,0,14 0.263531773 nan(mesh)
+PCURVES occt_data/CrankArm_from_brep.step 0 deg1=80 deg1+many=142 deg2=10 deg2+many=10 deg3=4 deg3+many=4 deg4=6 deg5=4 deg6+many=4 deg7+many=2 deg8=4 deg8+many=2
+DIAG occt_data/CrankArm_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=25 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=64
+EXIT occt_data/CrankArm_from_brep.step 0
+LOAD occt_data/MODERN_MVCooker_1_from_brep.step ok read_s 0.00288028 breps 1
+BREP occt_data/MODERN_MVCooker_1_from_brep.step 0 15 36 24 1 1 0 0 kinds=13,0,2,0,0,0 0.001854069 5546.89893139(mesh)
+PCURVES occt_data/MODERN_MVCooker_1_from_brep.step 0 deg1=64 deg1+many=4 deg2=4
+DIAG occt_data/MODERN_MVCooker_1_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=7 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=20
+EXIT occt_data/MODERN_MVCooker_1_from_brep.step 0
+LOAD occt_data/MODERN_Table_1_from_brep.step ok read_s 0.00538502 breps 1
+BREP occt_data/MODERN_Table_1_from_brep.step 0 22 42 26 1 1 0 0 kinds=12,0,10,0,0,0 0.07434128 13158.7015272(mesh)
+PCURVES occt_data/MODERN_Table_1_from_brep.step 0 deg1=56 deg1+many=20 deg2+many=8
+DIAG occt_data/MODERN_Table_1_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=12 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=14
+EXIT occt_data/MODERN_Table_1_from_brep.step 0
+LOAD occt_data/Pump_Nut_from_brep.step ok read_s 0.00710741 breps 1
+BREP occt_data/Pump_Nut_from_brep.step 0 25 67 44 1 1 0 0 kinds=8,0,1,0,2,14 0.060331668 21700.1373492(mesh)
+PCURVES occt_data/Pump_Nut_from_brep.step 0 deg1=64 deg1+many=54 deg2=14 deg2+many=2
+DIAG occt_data/Pump_Nut_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=9 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=16
+EXIT occt_data/Pump_Nut_from_brep.step 0
+LOAD occt_data/Pump_TopCover_from_brep.step ok read_s 0.00683861 breps 1
+BREP occt_data/Pump_TopCover_from_brep.step 0 8 16 10 1 1 0 0 kinds=2,2,2,0,0,2 0.272081646 144024.234534(mesh)
+PCURVES occt_data/Pump_TopCover_from_brep.step 0 deg1=8 deg1+many=20 deg2+many=2 deg9+many=2
+DIAG occt_data/Pump_TopCover_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=3 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=5
+EXIT occt_data/Pump_TopCover_from_brep.step 0
+LOAD occt_data/bottle_from_brep.step ok read_s 0.0315385 breps 1
+BREP occt_data/bottle_from_brep.step 0 71 146 76 1 1 0 0 kinds=13,16,30,0,1,11 0.509733342 nan(mesh)
+PCURVES occt_data/bottle_from_brep.step 0 deg1=115 deg1+many=160 deg2=8 deg2+many=4
+DIAG occt_data/bottle_from_brep.step 0 invalid_surfaces=0 invalid_curves3d=0 invalid_curves2d=0 edges_without_curve=0 open_wires=34 faces_without_wire=0 edges_not_used_twice=0 edges_same_direction_twice=31
+EXIT occt_data/bottle_from_brep.step 0
+LOAD occt_data/linkrods.step ok read_s 0.00605025 breps 0
+EXIT occt_data/linkrods.step 0
+LOAD occt_data/screw.step ok read_s 0.00032913 breps 0
+EXIT occt_data/screw.step 0

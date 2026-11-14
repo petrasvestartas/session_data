@@ -1,0 +1,234 @@
+LOAD github_misc/as1-ac-214.stp ok read_s 0.0369946 solids 18 shells 18
+SOLID github_misc/as1-ac-214.stp 0 18 48 32 1 kinds=6,0,12,0,0,0 0.00734659 530575.222039
+SOLID github_misc/as1-ac-214.stp 1 16 42 28 1 kinds=8,0,8,0,0,0 0.00628933 96858.4073464
+SOLID github_misc/as1-ac-214.stp 2 7 12 8 1 kinds=3,0,4,0,0,0 0.00193785 3436.11696486
+SOLID github_misc/as1-ac-214.stp 3 8 18 12 1 kinds=6,0,2,0,0,0 0.00248081 664.380550981
+SOLID github_misc/as1-ac-214.stp 4 7 12 8 1 kinds=3,0,4,0,0,0 0.00190207 3436.11696486
+SOLID github_misc/as1-ac-214.stp 5 8 18 12 1 kinds=6,0,2,0,0,0 0.00264205 664.380550981
+SOLID github_misc/as1-ac-214.stp 6 7 12 8 1 kinds=3,0,4,0,0,0 0.00200161 3436.11696486
+SOLID github_misc/as1-ac-214.stp 7 8 18 12 1 kinds=6,0,2,0,0,0 0.00231422 664.380550981
+SOLID github_misc/as1-ac-214.stp 8 16 42 28 1 kinds=8,0,8,0,0,0 0.005803 96858.4073464
+SOLID github_misc/as1-ac-214.stp 9 7 12 8 1 kinds=3,0,4,0,0,0 0.00191635 3436.11696486
+SOLID github_misc/as1-ac-214.stp 10 8 18 12 1 kinds=6,0,2,0,0,0 0.00237969 664.380550981
+SOLID github_misc/as1-ac-214.stp 11 7 12 8 1 kinds=3,0,4,0,0,0 0.0018885 3436.11696486
+SOLID github_misc/as1-ac-214.stp 12 8 18 12 1 kinds=6,0,2,0,0,0 0.00238041 664.380550981
+SOLID github_misc/as1-ac-214.stp 13 7 12 8 1 kinds=3,0,4,0,0,0 0.00192997 3436.11696486
+SOLID github_misc/as1-ac-214.stp 14 8 18 12 1 kinds=6,0,2,0,0,0 0.00235147 664.380550981
+SOLID github_misc/as1-ac-214.stp 15 4 6 4 1 kinds=2,0,2,0,0,0 0.000967527 15707.9632679
+SOLID github_misc/as1-ac-214.stp 16 8 18 12 1 kinds=6,0,2,0,0,0 0.00232984 664.380550981
+SOLID github_misc/as1-ac-214.stp 17 8 18 12 1 kinds=6,0,2,0,0,0 0.00229166 664.380550981
+LOAD github_misc/nema-17-bracket.step ok read_s 0.0410051 solids 1 shells 1
+SOLID github_misc/nema-17-bracket.step 0 42 120 80 1 kinds=24,0,18,0,0,0 0.0137896 7061.15530179
+LOAD hf_brepground/00015160_chamfer_12.step ok read_s 0.0728199 solids 1 shells 1
+SOLID hf_brepground/00015160_chamfer_12.step 0 53 115 69 1 kinds=13,0,23,3,8,6 0.0296914 12357.254171
+LOAD hf_brepground/00019536_chamfer_10.step ok read_s 0.0129334 solids 1 shells 1
+SOLID hf_brepground/00019536_chamfer_10.step 0 10 15 9 1 kinds=4,0,2,0,3,1 0.00744727 991596.281952
+LOAD hf_brepground/00042148_fillet_11.step ok read_s 0.110975 solids 1 shells 1
+SOLID hf_brepground/00042148_fillet_11.step 0 120 273 134 1 kinds=15,0,51,0,32,22 0.0493094 14763.1293904
+LOAD hf_brepground/00071814_fillet_15.step ok read_s 0.0788499 solids 1 shells 1
+SOLID hf_brepground/00071814_fillet_15.step 0 80 195 106 1 kinds=20,0,37,0,13,10 0.0374004 18626.4128714
+LOAD hf_brepground/00089757_fillet_16.step ok read_s 0.0362598 solids 1 shells 1
+SOLID hf_brepground/00089757_fillet_16.step 0 38 96 61 1 kinds=17,0,15,0,4,2 0.0182668 6617.54825101
+LOAD hf_brepground/00161395_chamfer_16.step ok read_s 0.0551193 solids 1 shells 1
+SOLID hf_brepground/00161395_chamfer_16.step 0 50 122 68 1 kinds=20,2,20,0,2,6 0.0307331 15147772.7491
+LOAD hf_brepground/00170968_fillet_10.step ok read_s 0.0438564 solids 1 shells 1
+SOLID hf_brepground/00170968_fillet_10.step 0 46 115 71 1 kinds=13,0,16,0,15,2 0.0147503 84325.3519881
+LOAD hf_brepground/00171214_fillet_11.step ok read_s 0.0297544 solids 1 shells 1
+SOLID hf_brepground/00171214_fillet_11.step 0 19 45 28 1 kinds=5,0,9,2,2,1 0.0174038 747962.535308
+LOAD hf_brepground/00275424_fillet_17.step ok read_s 0.0214967 solids 1 shells 1
+SOLID hf_brepground/00275424_fillet_17.step 0 21 35 20 1 kinds=6,0,6,3,4,2 0.0148331 640454.868384
+LOAD hf_brepground/00290572_chamfer_12.step ok read_s 0.0387798 solids 1 shells 1
+SOLID hf_brepground/00290572_chamfer_12.step 0 42 107 64 1 kinds=19,0,16,0,6,1 0.0148855 8593.10967125
+LOAD hf_brepmfr/0m-3623639.stp ok read_s 0.0253189 solids 3 shells 3
+SOLID hf_brepmfr/0m-3623639.stp 0 26 72 48 1 kinds=6,0,20,0,0,0 0.00953307 14351.3890037
+SOLID hf_brepmfr/0m-3623639.stp 1 4 6 4 1 kinds=2,0,2,0,0,0 0.000864982 23.7645300989
+SOLID hf_brepmfr/0m-3623639.stp 2 4 6 4 1 kinds=2,0,2,0,0,0 0.000773009 23.7645300989
+LOAD hf_brepmfr/107050503-m8u-8700-a267.stp ok read_s 0.0362844 solids 1 shells 5
+SOLID hf_brepmfr/107050503-m8u-8700-a267.stp 0 36 102 68 1 kinds=16,0,20,0,0,0 0.01368 4.34439271948
+LOAD hf_brepmfr/16P-03303.step ok read_s 0.888396 solids 2 shells 2
+SOLID hf_brepmfr/16P-03303.step 0 59 142 91 1 kinds=21,0,20,15,0,3 0.0577884 14.9981573341
+SOLID hf_brepmfr/16P-03303.step 1 202 610 414 1 kinds=30,0,34,16,0,122 1.01712 7.96603582842
+LOAD hf_brepmfr/sample_round.stp ok read_s 0.175122 solids 1 shells 1
+SOLID hf_brepmfr/sample_round.stp 0 14 28 16 1 kinds=3,0,3,0,4,4 0.0510049 126138195.332
+LOAD hf_brepmfr/sample_round_1.stp ok read_s 0.0336885 solids 1 shells 1
+SOLID hf_brepmfr/sample_round_1.stp 0 14 28 16 1 kinds=3,0,5,0,6,0 0.0114994 126039786.215
+LOAD hf_brepmfr/sample_round_2.stp ok read_s 0.123653 solids 1 shells 1
+SOLID hf_brepmfr/sample_round_2.stp 0 15 28 16 1 kinds=3,0,4,0,6,2 0.0290613 113705314.062
+LOAD hf_brepmfr/zip_chainlinkouter00.stp ok read_s 0.0285996 solids 1 shells 1
+SOLID hf_brepmfr/zip_chainlinkouter00.stp 0 40 92 64 1 kinds=12,0,28,0,0,0 0.0120315 1214.34409131
+LOAD hf_brepmfr/zip_cylinder400bore000.stp ok read_s 0.202387 solids 1 shells 1
+SOLID hf_brepmfr/zip_cylinder400bore000.stp 0 188 418 236 1 kinds=34,8,72,2,60,12 0.0893131 254.914351935
+LOAD hf_brepmfr/zip_cylinder600bore000.stp ok read_s 0.168868 solids 1 shells 1
+SOLID hf_brepmfr/zip_cylinder600bore000.stp 0 184 410 232 1 kinds=42,0,74,4,44,20 0.0809324 261.518937695
+LOAD hf_brepmfr/zip_defaultamacchina000.stp ok read_s 0.0519479 solids 14 shells 14
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 0 4 6 4 1 kinds=0,0,2,0,0,2 0.00454238 100066706.901
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 1 6 12 8 1 kinds=6,0,0,0,0,0 0.00133264 40000
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 2 6 12 8 1 kinds=6,0,0,0,0,0 0.00126369 165644.188865
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 3 6 12 8 1 kinds=6,0,0,0,0,0 0.00129658 125128.129211
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 4 6 12 8 1 kinds=6,0,0,0,0,0 0.00132529 125128.129211
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 5 6 12 8 1 kinds=6,0,0,0,0,0 0.00136039 165644.188866
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 6 6 12 8 1 kinds=6,0,0,0,0,0 0.00143845 40000
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 7 6 12 8 1 kinds=6,0,0,0,0,0 0.00126985 40000
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 8 6 12 8 1 kinds=6,0,0,0,0,0 0.00127381 165644.188866
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 9 6 12 8 1 kinds=6,0,0,0,0,0 0.0012933 125128.129211
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 10 6 12 8 1 kinds=6,0,0,0,0,0 0.00127465 125128.129211
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 11 6 12 8 1 kinds=6,0,0,0,0,0 0.00121518 165644.188865
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 12 6 12 8 1 kinds=6,0,0,0,0,0 0.00120262 40000
+SOLID hf_brepmfr/zip_defaultamacchina000.stp 13 6 12 8 1 kinds=6,0,0,0,0,0 0.00125732 79550000
+LOAD hf_brepmfr/zip_dfautbrutdusinage0001.stp ok read_s 0.371053 solids 35 shells 35
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 0 7 12 8 1 kinds=3,0,4,0,0,0 0.00210246 58904.8622548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 1 7 12 8 1 kinds=3,0,4,0,0,0 0.00216267 58904.8622548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 2 7 12 8 1 kinds=3,0,4,0,0,0 0.00245511 58904.8622548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 3 7 12 8 1 kinds=3,0,4,0,0,0 0.0020665 58904.8622548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 4 18 48 32 1 kinds=10,0,8,0,0,0 0.0144048 383021.46165
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 5 18 48 32 1 kinds=10,0,8,0,0,0 0.0135212 378812.434599
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 6 18 48 32 1 kinds=10,0,8,0,0,0 0.0130917 378812.434599
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 7 18 48 32 1 kinds=10,0,8,0,0,0 0.0133601 383021.46165
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 8 18 48 32 1 kinds=10,0,8,0,0,0 0.00655818 395573.621548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 9 18 48 32 1 kinds=10,0,8,0,0,0 0.00669125 395573.621548
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 10 18 48 32 1 kinds=10,0,8,0,0,0 0.00650544 63123.450247
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 11 18 48 32 1 kinds=10,0,8,0,0,0 0.00635639 140975.705552
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 12 18 48 32 1 kinds=10,0,8,0,0,0 0.00675686 140975.705552
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 13 18 48 32 1 kinds=10,0,8,0,0,0 0.00902591 258806.146013
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 14 18 48 32 1 kinds=10,0,8,0,0,0 0.00777215 258806.146013
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 15 18 48 32 1 kinds=10,0,8,0,0,0 0.0124665 707004.317028
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 16 18 48 32 1 kinds=10,0,8,0,0,0 0.0158866 193579.911173
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 17 18 48 32 1 kinds=10,0,8,0,0,0 0.00990131 707004.317028
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 18 18 48 32 1 kinds=10,0,8,0,0,0 0.0142518 370359.310973
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 19 18 48 32 1 kinds=10,0,8,0,0,0 0.0117856 532357.417286
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 20 18 48 32 1 kinds=10,0,8,0,0,0 0.0102945 370359.310973
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 21 18 48 32 1 kinds=10,0,8,0,0,0 0.00984531 532357.417286
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 22 6 12 8 1 kinds=6,0,0,0,0,0 0.00147972 87500000
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 23 19 36 24 1 kinds=7,0,12,0,0,0 0.00581665 2878111.64455
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 24 19 36 24 1 kinds=7,0,12,0,0,0 0.00573299 2878111.64455
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 25 19 36 24 1 kinds=7,0,12,0,0,0 0.00565124 2878111.64455
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 26 6 12 8 1 kinds=6,0,0,0,0,0 0.00136778 553500
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 27 7 12 8 1 kinds=3,0,4,0,0,0 0.00194342 17107981.0473
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 28 6 12 8 1 kinds=6,0,0,0,0,0 0.00141028 553500
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 29 6 12 8 1 kinds=6,0,0,0,0,0 0.00146602 553500
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 30 7 12 8 1 kinds=3,0,4,0,0,0 0.00185619 17107981.0473
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 31 7 12 8 1 kinds=3,0,4,0,0,0 0.00186553 17107981.0473
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 32 12 29 19 1 kinds=2,0,6,0,4,0 0.00826659 4096054.4848
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 33 12 29 19 1 kinds=2,0,6,0,4,0 0.00868977 4096054.4848
+SOLID hf_brepmfr/zip_dfautbrutdusinage0001.stp 34 12 29 19 1 kinds=2,0,6,0,4,0 0.00811629 4096054.4848
+LOAD hf_brepmfr/zip_doorlatchvonduprin0001.stp ok read_s 0.0621861 solids 1 shells 1
+SOLID hf_brepmfr/zip_doorlatchvonduprin0001.stp 0 58 132 74 1 kinds=14,4,26,2,4,8 0.0573604 376484.013554
+LOAD hf_brepmfr/zip_dripmanifold0.stp ok read_s 0.0405821 solids 1 shells 1
+SOLID hf_brepmfr/zip_dripmanifold0.stp 0 66 146 96 1 kinds=16,0,28,18,4,0 0.0189241 5091.41960661
+LOAD hf_brepmfr/zip_ea0000006992revit.stp ok read_s 0.387898 solids 21 shells 22
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 0 35 82 52 1 kinds=11,0,6,18,0,0 0.0380193 4976.76790966
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 1 35 82 52 1 kinds=11,0,6,18,0,0 0.0319451 4976.76790966
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 2 22 52 32 1 kinds=8,0,2,12,0,0 0.0274335 2894.87287573
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 3 22 52 32 1 kinds=8,0,2,12,0,0 0.0269302 2894.87287573
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 4 6 12 8 1 kinds=2,0,4,0,0,0 0.00201398 1013.86086078
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 5 6 12 8 1 kinds=2,0,4,0,0,0 0.0018727 1013.86086078
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 6 2 6 2 1 kinds=0,2,0,0,0,0 0.00217979 8580.24664605
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 7 2 6 2 1 kinds=0,2,0,0,0,0 0.00132394 8580.24664605
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 8 2 6 2 1 kinds=0,2,0,0,0,0 0.00131129 8580.24664605
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 9 15 36 24 1 kinds=11,0,4,0,0,0 0.00525224 7653.78853175
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 10 6 12 8 1 kinds=2,0,4,0,0,0 0.00196344 5115.97206271
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 11 6 12 8 1 kinds=2,0,4,0,0,0 0.0019865 5115.97206271
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 12 10 18 12 1 kinds=4,0,6,0,0,0 0.00292443 44672.2677187
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 13 10 18 12 1 kinds=4,0,6,0,0,0 0.00278614 44672.2677187
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 14 68 207 134 1 kinds=8,0,26,24,8,2 0.0895865 799375.332053
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 15 27 76 47 1 kinds=3,0,14,6,4,0 0.0251627 56698.9278012
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 16 26 74 48 1 kinds=14,0,8,4,0,0 0.00987636 241980.096958
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 17 22 60 40 1 kinds=11,0,11,0,0,0 0.0205887 106230.718888
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 18 33 88 58 1 kinds=21,0,10,2,0,0 0.0127305 191906.394421
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 19 6 12 8 1 kinds=2,0,4,0,0,0 0.00194045 528.052531654
+SOLID hf_brepmfr/zip_ea0000006992revit.stp 20 6 12 8 1 kinds=2,0,4,0,0,0 0.00190907 528.052531654
+LOAD hf_brepmfr/zip_ea0000006997revit.stp ok read_s 0.0684129 solids 1 shells 1
+SOLID hf_brepmfr/zip_ea0000006997revit.stp 0 75 191 120 1 kinds=30,0,37,4,4,0 0.0285369 10131989.6751
+LOAD hf_brepmfr/zip_ea0000007008revit.stp ok read_s 0.0971476 solids 1 shells 1
+SOLID hf_brepmfr/zip_ea0000007008revit.stp 0 68 196 128 1 kinds=24,0,36,0,8,0 0.0800648 543814.064071
+LOAD hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step ok read_s 0.0327775 solids 1 shells 1
+SOLID hf_zero_to_cad/13e02b4d-d613-422b-6a17-390f6402693a.step 0 39 89 46 1 kinds=9,8,17,1,4,0 0.0118129 8796.53612651
+LOAD hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step ok read_s 0.113599 solids 1 shells 1
+SOLID hf_zero_to_cad/3692c35e-1985-41b6-b45d-edc922a59854.step 0 124 280 160 1 kinds=76,0,4,10,10,24 0.0708172 74962.8207951
+LOAD hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step ok read_s 0.134807 solids 1 shells 1
+SOLID hf_zero_to_cad/3bbf8b2b-5a16-b6b4-0c60-4df743e5e0bc.step 0 99 252 140 1 kinds=23,16,52,0,8,0 0.0355752 47778.1959053
+LOAD hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step ok read_s 0.0947909 solids 1 shells 1
+SOLID hf_zero_to_cad/45278456-3334-0c11-81a7-458fce65d6d7.step 0 38 90 54 1 kinds=7,0,4,0,0,27 0.0719438 44804.7519849
+LOAD hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step ok read_s 0.0151609 solids 1 shells 1
+SOLID hf_zero_to_cad/4b3aaa7b-f278-fc6a-8f9f-28fd4893be76.step 0 14 36 24 1 kinds=6,0,8,0,0,0 0.00444173 52927.5411778
+LOAD hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step ok read_s 0.0297406 solids 1 shells 1
+SOLID hf_zero_to_cad/56155734-8313-cde8-e96a-dbb3bbe3ba2f.step 0 35 79 42 1 kinds=13,4,10,6,2,0 0.0137637 19372.5382065
+LOAD hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step ok read_s 0.0482467 solids 1 shells 1
+SOLID hf_zero_to_cad/5c6512ae-9182-fc5e-05b1-b23c3735d060.step 0 50 100 52 1 kinds=39,0,2,4,0,5 0.0170818 23756.9131195
+LOAD hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step ok read_s 0.0464682 solids 1 shells 1
+SOLID hf_zero_to_cad/89ded05a-e2be-350b-db33-e42eb475ce39.step 0 58 125 70 1 kinds=24,10,18,2,0,4 0.027128 10008.4985742
+LOAD hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step ok read_s 0.0740257 solids 1 shells 1
+SOLID hf_zero_to_cad/8bccb9ee-085e-5ce4-75ab-15c7ee2cab24.step 0 62 151 81 1 kinds=15,8,31,0,8,0 0.0254213 19520.8977489
+LOAD hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step ok read_s 0.0425891 solids 1 shells 1
+SOLID hf_zero_to_cad/916572bc-ac4f-03d6-fc3d-1670590c4ce4.step 0 47 100 61 1 kinds=12,0,12,15,8,0 0.014468 26664.6969523
+LOAD mcneel_rebuilt/mesh_blob_80.step ok read_s 0.0406871 solids 1 shells 1
+SOLID mcneel_rebuilt/mesh_blob_80.step 0 80 120 42 1 kinds=80,0,0,0,0,0 0.0119296 28263.2867334
+LOAD mcneel_rebuilt/threaded_rod_cutter.step ok read_s 0.0127421 solids 1 shells 1
+SOLID mcneel_rebuilt/threaded_rod_cutter.step 0 5 9 6 1 kinds=2,0,0,0,0,3 0.0163415 169.331839697
+LOAD nist_edm/260012.stp ok read_s 0.19745 solids 1 shells 1
+SOLID nist_edm/260012.stp 0 147 438 295 1 kinds=53,0,54,11,29,0 0.155833 29612667552.2
+LOAD nist_edm/DoubleCam1.stp ok read_s 0.0253257 solids 1 shells 1
+SOLID nist_edm/DoubleCam1.stp 0 35 92 59 1 kinds=12,0,11,4,8,0 0.0107144 0.476367472982
+LOAD nist_edm/KnurledKnob10.stp ok read_s 0.00962126 solids 1 shells 1
+SOLID nist_edm/KnurledKnob10.stp 0 11 22 14 1 kinds=3,0,6,2,0,0 0.00285271 0.219507791095
+LOAD nist_edm/NC_DRIVE.stp ok read_s 0.0344534 solids 1 shells 1
+SOLID nist_edm/NC_DRIVE.stp 0 20 51 34 1 kinds=0,0,0,0,0,20 0.0193502 4122781.80714
+LOAD nist_edm/RestButton1.stp ok read_s 0.0108271 solids 1 shells 1
+SOLID nist_edm/RestButton1.stp 0 15 31 19 1 kinds=3,0,4,4,4,0 0.00347885 0.0335097407011
+LOAD nist_edm/anc101_a.stp ok read_s 0.0934232 solids 1 shells 1
+SOLID nist_edm/anc101_a.stp 0 127 314 206 1 kinds=55,0,68,4,0,0 0.045614 8108593.2422
+LOAD nist_edm/bellow.stp ok read_s 0.0346271 solids 1 shells 1
+SOLID nist_edm/bellow.stp 0 68 136 70 1 kinds=2,0,2,64,0,0 0.0172348 187300.867305
+LOAD nist_edm/bolt.stp ok read_s 0.0417827 solids 1 shells 1
+SOLID nist_edm/bolt.stp 0 46 106 60 1 kinds=20,8,18,0,0,0 0.0150264 27636.3072568
+LOAD nist_edm/chamber.stp ok read_s 0.0793152 solids 1 shells 1
+SOLID nist_edm/chamber.stp 0 50 126 84 1 kinds=15,4,27,0,2,2 0.0370996 263099.637401
+LOAD nist_edm/clevis21.stp ok read_s 0.0382938 solids 1 shells 1
+SOLID nist_edm/clevis21.stp 0 66 144 92 1 kinds=30,0,24,12,0,0 0.0162798 1712743.56874
+LOAD nist_edm/flange.stp ok read_s 0.0644501 solids 2 shells 2
+SOLID nist_edm/flange.stp 0 51 118 74 1 kinds=7,0,30,4,10,0 0.0148511 74715267699.1
+SOLID nist_edm/flange.stp 1 51 118 74 1 kinds=7,0,30,4,10,0 0.0141854 74715267699.1
+LOAD nist_edm/fork.stp ok read_s 0.233082 solids 1 shells 1
+SOLID nist_edm/fork.stp 0 106 268 167 1 kinds=29,0,47,0,16,14 0.088184 1934375.24906
+LOAD nist_edm/gear_40.stp ok read_s 0.37623 solids 1 shells 1
+SOLID nist_edm/gear_40.stp 0 456 1356 904 1 kinds=352,0,104,0,0,0 0.20585 3.14887271485e-06
+LOAD nist_edm/interactingPockets.stp ok read_s 0.0623728 solids 1 shells 1
+SOLID nist_edm/interactingPockets.stp 0 66 180 120 1 kinds=30,0,36,0,0,0 0.0299362 12083.6947163
+LOAD nist_edm/main_block.stp ok read_s 0.103002 solids 1 shells 1
+SOLID nist_edm/main_block.stp 0 160 364 238 1 kinds=55,0,84,3,18,0 0.0633609 509.957067057
+LOAD nist_edm/moon_buggy.stp ok read_s 0.179903 solids 1 shells 1
+SOLID nist_edm/moon_buggy.stp 0 113 282 168 1 kinds=28,8,26,4,40,7 0.0987189 1678598797.09
+LOAD nist_edm/mt_jaw_half_finish-mach-bup.stp ok read_s 0.15263 solids 1 shells 1
+SOLID nist_edm/mt_jaw_half_finish-mach-bup.stp 0 169 488 324 1 kinds=118,0,42,5,2,2 0.0716335 2550072.33927
+LOAD nist_edm/needle-nose-inch.stp ok read_s 0.0677022 solids 1 shells 1
+SOLID nist_edm/needle-nose-inch.stp 0 31 87 58 1 kinds=18,0,5,0,4,4 0.0295712 0.887571332604
+LOAD nist_edm/screw_driver1.stp ok read_s 0.252419 solids 1 shells 1
+SOLID nist_edm/screw_driver1.stp 0 107 320 206 1 kinds=5,2,14,14,50,22 0.229806 23729.3651387
+LOAD nist_edm/sh-r44356-000-u.stp ok read_s 0.0168858 solids 1 shells 1
+SOLID nist_edm/sh-r44356-000-u.stp 0 21 52 36 1 kinds=5,0,8,0,8,0 0.0064518 0.00780025400077
+LOAD nist_edm/sh-r44363-000-u-compressed.stp ok read_s 0.0154905 solids 1 shells 1
+SOLID nist_edm/sh-r44363-000-u-compressed.stp 0 30 58 30 1 kinds=2,0,8,0,20,0 0.00570149 6.91481368876e-05
+LOAD nist_edm/stock.stp ok read_s 0.35943 solids 1 shells 1
+SOLID nist_edm/stock.stp 0 85 242 160 1 kinds=23,0,27,4,16,15 0.150427 90.8262796648
+LOAD nist_edm/swivel1-Part.step ok read_s 0.00460834 solids 0 shells 0
+LOAD occt_booltest/bottle.step ok read_s 0.056702 solids 2 shells 2
+SOLID occt_booltest/bottle.step 0 68 148 69 1 kinds=13,16,30,0,9,0 0.0226593 6945.94428106
+SOLID occt_booltest/bottle.step 1 4 6 4 1 kinds=0,0,2,0,0,2 0.00574898 19.0569365349
+LOAD occt_data/Bottom_from_brep.step ok read_s 0.445424 solids 1 shells 1
+SOLID occt_data/Bottom_from_brep.step 0 323 752 405 1 kinds=52,8,111,3,28,121 0.310761 310019.710505
+LOAD occt_data/CrankArm_from_brep.step ok read_s 0.0728456 solids 1 shells 1
+SOLID occt_data/CrankArm_from_brep.step 0 49 132 84 1 kinds=19,0,9,5,0,16 0.0368655 38682.8877705
+LOAD occt_data/MODERN_MVCooker_1_from_brep.step ok read_s 0.0138178 solids 1 shells 1
+SOLID occt_data/MODERN_MVCooker_1_from_brep.step 0 15 36 24 1 kinds=13,0,2,0,0,0 0.0036778 17993.1238898
+LOAD occt_data/MODERN_Table_1_from_brep.step ok read_s 0.0172717 solids 1 shells 1
+SOLID occt_data/MODERN_Table_1_from_brep.step 0 22 42 26 1 kinds=12,0,10,0,0,0 0.00494929 30649.4813642
+LOAD occt_data/Pump_Nut_from_brep.step ok read_s 0.0295343 solids 1 shells 1
+SOLID occt_data/Pump_Nut_from_brep.step 0 25 67 44 1 kinds=8,0,1,14,2,0 0.00996327 24130.3105554
+LOAD occt_data/Pump_TopCover_from_brep.step ok read_s 0.0200728 solids 1 shells 1
+SOLID occt_data/Pump_TopCover_from_brep.step 0 8 16 10 1 kinds=2,2,2,0,0,2 0.0165738 2495451.33124
+LOAD occt_data/bottle_from_brep.step ok read_s 0.0628404 solids 1 shells 1
+SOLID occt_data/bottle_from_brep.step 0 71 157 75 1 kinds=13,16,31,0,9,2 0.0264337 6962.95413339
+LOAD occt_data/linkrods.step ok read_s 0.446663 solids 1 shells 1
+SOLID occt_data/linkrods.step 0 37 108 74 1 kinds=6,0,4,0,9,18 0.197108 3.84700170816
+LOAD occt_data/screw.step ok read_s 0.0184106 solids 1 shells 1
+SOLID occt_data/screw.step 0 10 22 14 1 kinds=4,0,1,2,3,0 0.010538 3788.27059337
