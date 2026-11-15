@@ -56,6 +56,16 @@ def file_unit_mm(path):
     m = re.search(r"CONVERSION_BASED_UNIT\s*\(\s*'(INCH|FOOT|IN|FT)'", t)
     if m:
         return 25.4 if m.group(1) in ('INCH', 'IN') else 304.8
+    # A conversion-based length unit of another name (fork.stp: 'SAT', 25.4 mm) is resolved through its measure.
+    flat = re.sub(r'\s+', '', t)
+    ents = dict(re.findall(r'#(\d+)=([^;]*);', flat))
+    for body in ents.values():
+        m = re.search(r"CONVERSION_BASED_UNIT\('[^']*',#(\d+)\)", body)
+        if m and 'LENGTH_UNIT' in body:
+            v = re.search(r'LENGTH_MEASURE\(([-+.0-9E]+)\),#(\d+)', ents.get(m.group(1), ''))
+            if v:
+                p = re.search(r'SI_UNIT\(([.A-Z$]+),\.METRE\.', ents.get(v.group(2), ''))
+                return float(v.group(1)) * {'.MILLI.': 1.0, '.CENTI.': 10.0, '.DECI.': 100.0, '$': 1000.0, '.KILO.': 1e6, '.MICRO.': 1e-3}.get(p.group(1) if p else '.MILLI.', 1.0)
     m = re.search(r"LENGTH_UNIT\s*\(\s*\)\s*NAMED_UNIT\s*\(\s*\*\s*\)\s*SI_UNIT\s*\(\s*([.A-Z$]+)\s*,\s*\.METRE\.", t)
     if not m:
         m = re.search(r"SI_UNIT\s*\(\s*([.A-Z$]+)\s*,\s*\.METRE\.", t)
